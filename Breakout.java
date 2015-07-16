@@ -69,12 +69,6 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
-/**	The label which flashes in the beginning of the game warning the player that the game is about to start
- */
-	private void createGameStartLabel() {
-		
-	}
-	
 	
 /**	Creates the row of bricks near top of window
  * 	the rows are coloured in groups of 2.
