@@ -78,6 +78,12 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**
+ * This method takes in the brick row number as a parameter and returns the color associated with that row	
+ * @param brickRowNumber contains the row number
+ * The row color values are hard coded:
+ *  Rows 1,2 - Red; Rows 3,4 - orange; Rows 5,6 - yellow; Rows 7,8 - Green; Rows 9,10 - cyan
+ */
 	private void getBrickRowColor(int brickRowNumber) {
 		
 	}
