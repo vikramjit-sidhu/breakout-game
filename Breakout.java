@@ -70,6 +70,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void setupBricks() {
 		/*This is the y location of the first row from the top	*/
+		int brickRowXLocation = brickRowStartingLocation();
 		int brickRowYLocation = BRICK_Y_OFFSET;
 		for (int i=1; i <= NBRICK_ROWS; i++) {
 			// Sends the brick row number and gets the color of that row
