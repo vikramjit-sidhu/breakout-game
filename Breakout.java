@@ -64,11 +64,16 @@ public class Breakout extends GraphicsProgram {
 		setupBricks();
 	}
 	
+/**	Creates the row of bricks near top of window
+ * 	
+ * 	
+ */
 	private void setupBricks() {
-		for (int i=0; i<) {
+		//This is the y location of the first row from the top
+		int brickRowYLocation = BRICK_Y_OFFSET;
+		for (int i=0; i<NBRICK_ROWS; i++) {
 			createBrickRow();
 		}
-			
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
