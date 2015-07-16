@@ -75,7 +75,7 @@ public class Breakout extends GraphicsProgram {
 			// Sends the brick row number to the method and gets the color of that row
 			Color color = getBrickRowColor(i);
 			createBrickRow();
-			brickRowYLocation = getNextRowYLocation(brickRowYLocation);
+			brickRowYLocation += BRICK_HEIGHT;
 		}
 	}
 	
