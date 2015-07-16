@@ -68,7 +68,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	Creates the row of bricks near top of window
- * 	
+ * 	the rows are coloured in groups of 2.
  * 	
  */
 	private void setupBricks() {
