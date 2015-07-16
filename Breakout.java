@@ -76,7 +76,7 @@ public class Breakout extends GraphicsProgram {
 			// Sends the brick row number and gets the color of that row
 			Color colorOfRow = getBrickRowColor(i);
 			//Creates a row at the specified y location with the given color
-			createBrickRow(brickRowYLocation, colorOfRow);
+			createBrickRow(brickRowXLocation, brickRowYLocation, colorOfRow);
 			/* The next row must be created with the following brick separation	*/
 			brickRowYLocation += (BRICK_HEIGHT + BRICK_SEP);
 		}
@@ -115,6 +115,7 @@ public class Breakout extends GraphicsProgram {
 	private int brickRowStartingLocation() {
 		/* Total width of a brick row */
 		int brickRowWidth = BRICK_WIDTH * NBRICK_ROWS;
+		/* The space remaining  */
 		int spaceRemaining = WIDTH - brickRowWidth;
 	}
 	
