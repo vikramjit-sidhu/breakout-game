@@ -117,6 +117,9 @@ public class Breakout extends GraphicsProgram {
 		int brickRowWidth = BRICK_WIDTH * NBRICKS_PER_ROW;
 		/* The space remaining, this has to be divided between the beginning and ending of a row  */
 		int spaceRemaining = WIDTH - brickRowWidth;
+		/* spaceRemaining is the amount of x distance that has to be divided between the beginning and ending of rows
+		 * so the x offset of the row is half of this distance	*/
+		return (spaceRemaining / 2);
 	}
 	
 	
