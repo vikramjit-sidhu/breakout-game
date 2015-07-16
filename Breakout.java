@@ -125,7 +125,7 @@ public class Breakout extends GraphicsProgram {
 	
 	private void createBrickRow(int x, int y, Color colorOfRow) {
 		for (int i=0; i<NBRICKS_PER_ROW; i++) {
-			
+			GRect rectangle = createRectangle(x, y, colorOfRow)''
 		}
 	}
 
