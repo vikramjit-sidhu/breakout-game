@@ -106,7 +106,7 @@ public class Breakout extends GraphicsProgram {
 		return colorOfRow;
 	}
 	
-	private void createBrickRow(int y, Color colorOfRow) {
+	private void createBrickRow(int x, int y, Color colorOfRow) {
 		
 	}
 
