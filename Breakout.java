@@ -112,4 +112,7 @@ public class Breakout extends GraphicsProgram {
  * 	INSTANCE VARIABLES
  */
 	
+/**	Random generator class instance
+ * This is used to generate random colours and random numbers as the case may be	*/	
+	
 }
