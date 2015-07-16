@@ -132,6 +132,10 @@ public class Breakout extends GraphicsProgram {
 			x += (BRICK_WIDTH + BRICK_SEP);
 		}
 	}
+	
+	private GRect createRectangle(int x, int y, Color colorOfRect) {
+		
+	}
 
 	
 /**
