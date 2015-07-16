@@ -99,10 +99,17 @@ public class Breakout extends GraphicsProgram {
 			colorOfRow = Color.GREEN;
 		else if ((brickRowNumber == 9) || (brickRowNumber == 10))
 			colorOfRow = Color.CYAN;
+		else
+			colorOfRow = 
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
 		
 	}
 
+	
+/**
+ * 	INSTANCE VARIABLES
+ */
+	
 }
