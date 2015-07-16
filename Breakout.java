@@ -140,7 +140,7 @@ public class Breakout extends GraphicsProgram {
  * @param colorOfRect the color to fill in the rectangle
  */
 	private GRect createRectangle(int x, int y, Color colorOfRect) {
-		
+		GRect rectangle = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT)
 	}
 
 	
