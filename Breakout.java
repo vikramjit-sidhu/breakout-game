@@ -101,7 +101,7 @@ public class Breakout extends GraphicsProgram {
 			colorOfRow = Color.CYAN;
 		else
 			colorOfRow = randomGen.nextColor();
-		return colorOfRow
+		return colorOfRow;
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
