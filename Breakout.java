@@ -107,6 +107,16 @@ public class Breakout extends GraphicsProgram {
 		return colorOfRow;
 	}
 	
+/**	
+ * Calculates the starting location of the brick rows
+ * 	
+ * @return
+ */
+	private int brickRowStartingLocation() {
+		int brickRowHalfWidth = BRICK_WIDTH * (NBRICK_ROWS / 2);
+	}
+	
+	
 	private void createBrickRow(int x, int y, Color colorOfRow) {
 		
 	}
