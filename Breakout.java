@@ -92,7 +92,9 @@ public class Breakout extends GraphicsProgram {
 		if ((brickRowNumber == 1) || (brickRowNumber == 2))
 			colorOfRow = Color.RED;
 		else if ((brickRowNumber == 3) || (brickRowNumber == 4))
-			colorOfRow = Color.ORANGE
+			colorOfRow = Color.ORANGE;
+		else if ((brickRowNumber == 5) || (brickRowNumber == 6))
+			colorOfRow = Color.YELLOW;
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
