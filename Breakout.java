@@ -68,6 +68,12 @@ public class Breakout extends GraphicsProgram {
 		setupBricks();		
 	}
 	
+	
+	private void createGameStartLabel() {
+		
+	}
+	
+	
 /**	Creates the row of bricks near top of window
  * 	the rows are coloured in groups of 2.
  */
