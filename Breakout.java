@@ -141,6 +141,8 @@ public class Breakout extends GraphicsProgram {
  */
 	private GRect createRectangle(int x, int y, Color colorOfRect) {
 		GRect rectangle = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
+		rectangle.setFilled(true);
+		rectangle.setFillColor(colorOfRect);
 	}
 
 	
