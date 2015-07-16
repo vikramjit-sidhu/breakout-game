@@ -166,4 +166,6 @@ public class Breakout extends GraphicsProgram {
  * This is used to generate random colours and random numbers as the case may be	*/
 	private RandomGenerator randomGen = new RandomGenerator();
 	
+/**	The GLabel object which flashes to the user when it is time for the game to start
+	
 }
