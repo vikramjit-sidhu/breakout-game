@@ -64,7 +64,6 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	private void setupEnviron() {
-		createGameStartLabel();
 		setupBricks();		
 	}
 	
