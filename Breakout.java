@@ -100,7 +100,7 @@ public class Breakout extends GraphicsProgram {
 		else if ((brickRowNumber == 9) || (brickRowNumber == 10))
 			colorOfRow = Color.CYAN;
 		else
-			colorOfRow = 
+			colorOfRow = randomGen.nextColor();
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
