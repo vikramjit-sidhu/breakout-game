@@ -128,7 +128,7 @@ public class Breakout extends GraphicsProgram {
 			/* creating a rectangle, adding it to the screen	*/
 			GRect rectangle = createRectangle(x, y, colorOfRow);
 			add(rectangle);
-			x += (BRICK_WIDTH + BRICK_SEP
+			x += (BRICK_WIDTH + BRICK_SEP);
 		}
 	}
 
