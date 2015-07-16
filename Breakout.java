@@ -64,6 +64,10 @@ public class Breakout extends GraphicsProgram {
 		setupBricks();
 	}
 	
+	private void setupEnviron() {
+		
+	}
+	
 /**	Creates the row of bricks near top of window
  * 	
  * 	
