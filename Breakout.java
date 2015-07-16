@@ -133,6 +133,12 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**
+ * Creating a rectangle GRect object	
+ * @param x @param y the x, y location of the top right corner of the rectangle
+ * @param colorOfRect the color to fill in the rectangle
+ * @return
+ */
 	private GRect createRectangle(int x, int y, Color colorOfRect) {
 		
 	}
