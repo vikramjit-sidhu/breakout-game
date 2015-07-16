@@ -113,8 +113,8 @@ public class Breakout extends GraphicsProgram {
  * @return
  */
 	private int brickRowStartingLocation() {
-		/* Half of the total width of a brick row */
-		int brickRowWidth = BRICK_WIDTH * (NBRICK_ROWS / 2);
+		/* Total width of a brick row */
+		int brickRowWidth = BRICK_WIDTH * NBRICK_ROWS;
 		
 	}
 	
