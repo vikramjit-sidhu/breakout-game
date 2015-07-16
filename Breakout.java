@@ -63,5 +63,16 @@ public class Breakout extends GraphicsProgram {
 		/* You fill this in, along with any subsidiary methods */
 		setupBricks();
 	}
+	
+	private void setupBricks() {
+		for (int i=0; i<) {
+			createBrickRow();
+		}
+			
+	}
+	
+	private void createBrickRow(int y, Color colorOfRow) {
+		
+	}
 
 }
