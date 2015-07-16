@@ -89,8 +89,9 @@ public class Breakout extends GraphicsProgram {
 	private Color getBrickRowColor(int brickRowNumber) {
 		//Contains the color of the row which is to be returned
 		Color colorOfRow;
-		if (brickRowNumber == 1) || (brickRowNumber == 1)
-			
+		if ((brickRowNumber == 1) || (brickRowNumber == 2))
+			colorOfRow = Color.RED;
+		else if ((brickRowNumber == 3) || (brickRowNumber == 4))
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
