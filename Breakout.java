@@ -113,6 +113,7 @@ public class Breakout extends GraphicsProgram {
  */
 	
 /**	Random generator class instance
- * This is used to generate random colours and random numbers as the case may be	*/	
+ * This is used to generate random colours and random numbers as the case may be	*/
+	private RandomGenerator randomGen = new RandomGenerator();
 	
 }
