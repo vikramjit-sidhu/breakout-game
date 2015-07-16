@@ -86,7 +86,7 @@ public class Breakout extends GraphicsProgram {
  *  Rows 1,2 - Red; Rows 3,4 - orange; Rows 5,6 - yellow; Rows 7,8 - Green; Rows 9,10 - cyan
  *  If there are any more rows than 10, a random color is returned
  */
-	private void getBrickRowColor(int brickRowNumber) {
+	private Color getBrickRowColor(int brickRowNumber) {
 		
 	}
 	
