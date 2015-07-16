@@ -87,7 +87,10 @@ public class Breakout extends GraphicsProgram {
  *  If there are any more rows than 10, a random color is returned
  */
 	private Color getBrickRowColor(int brickRowNumber) {
-		
+		//Contains the color of the row which is to be returned
+		Color colorOfRow;
+		if (brickRowNumber == 1) || (brickRowNumber == 1)
+			
 	}
 	
 	private void createBrickRow(int y, Color colorOfRow) {
