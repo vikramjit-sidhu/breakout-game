@@ -14,6 +14,6 @@ public class Paddle extends GraphicsProgram {
 	private static final int HEIGHT = APPLICATION_HEIGHT;
 	
 	public void run() {
-		initializeRect();
+		drawPaddle();
 	}
 }
