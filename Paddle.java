@@ -7,4 +7,5 @@ import acm.program.GraphicsProgram;
  */
 public class Paddle extends GraphicsProgram {
 	
+	public Paddle(int )
 }
