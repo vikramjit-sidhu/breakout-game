@@ -27,6 +27,6 @@ public class Paddle {
 	
 /**	INSTANCE VARIABLES	*/
 	
-/**	The paddle which the class is based on	*/
+/**	The paddle object created by class	*/
 	private GRect paddle;
 }
