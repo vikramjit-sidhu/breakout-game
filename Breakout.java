@@ -140,7 +140,7 @@ public class Breakout extends GraphicsProgram {
 			Point oldLocation = new Point();
 			oldLocation.x = (int) paddle.getX();
 			oldLocation.y = (int) paddle.getY();
-			paddle.move(oldLocation.x + distanceToMove, dy);
+			paddle.move(oldLocation..getX() + distanceToMove, oldLocation.getY());
 		}
 	}
 	
