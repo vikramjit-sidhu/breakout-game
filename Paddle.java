@@ -1,3 +1,4 @@
+import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 /**
@@ -8,6 +9,6 @@ import acm.program.GraphicsProgram;
 public class Paddle extends GraphicsProgram {
 	
 	public Paddle(int paddleWidth, int paddleHeight) {
-		
+		GRect paddle = new GRect(paddleWidth, paddleHeight);
 	}
 }
