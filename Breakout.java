@@ -132,9 +132,6 @@ public class Breakout extends GraphicsProgram {
  * 	Using the mouse event, finding out its x location and hence calculating the paddle location from it
  */
 	private void setupPaddleListener(MouseEvent e) {
-		/* This is the x location of the top left corner of the GRect object which the paddle represents
-		 */
-		double paddleXLocation = paddle.getX();
 		/*	The distance the paddle has to move, will be positive to move towards right wall and
 		 * 	if negative it will move towards left wall */
 		double distanceToMove = mouseLocation.x - e.getX();
