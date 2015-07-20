@@ -85,7 +85,7 @@ public class Breakout extends GraphicsProgram {
  * 	paddle object.
  */
 	private void setInitialMouseLocation() {
-		mouseLocation.x = 
+		mouseLocation = getPaddleInitialPoint();
 	}
 	
 
