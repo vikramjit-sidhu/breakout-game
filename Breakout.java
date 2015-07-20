@@ -111,7 +111,8 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	Returns the initial starting point of the paddle
- * 	
+ * 	The paddle is a GRect object, the point returned is the x,y co-ordinates of the top left 
+ * 	corner of that rectangle.
  * @return
  */
 	private Point getPaddleInitialPoint() {
