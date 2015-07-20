@@ -16,7 +16,7 @@ public class Paddle extends GraphicsProgram {
 	}
 	
 	public Paddle(int paddleWidth, int paddleHeight, Color colorPaddle) {
-		GRect paddle = new GRect(paddleWidth, paddleHeight);
+		paddle = new GRect(paddleWidth, paddleHeight);
 		paddle.setFilled(true);
 		paddle.setFillColor(colorPaddle);
 	}
