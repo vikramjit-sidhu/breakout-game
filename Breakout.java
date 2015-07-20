@@ -121,6 +121,11 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**	Given the current paddle location, calculating that if it moves to the new position,
+ * 	whether it will collide with the game walls	
+ * @param currentX
+ * @param newX
+ */
 	private void paddleCollision(double currentX, double newX) {
 		
 	}
