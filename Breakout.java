@@ -111,7 +111,7 @@ public class Breakout extends GraphicsProgram {
  * 	Using the mouse event, finding out its x location and hence calculating the paddle location from it
  */
 	private void setupPaddleListener(MouseEvent e) {
-		int paddleXLocation = paddle.getX();
+		double paddleXLocation = paddle.getX();
 	}
 	
 	
