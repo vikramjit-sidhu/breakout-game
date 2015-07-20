@@ -146,7 +146,9 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Given the current paddle location, calculating that if it moves to the new position,
  * 	whether it will collide with the game walls.
- *  Distance will
+ *  The paddle x location is the corner of the GRect object, for collision with left wall, direct 
+ *  comparison will be done, for collision with right wall, the width of the paddle 
+ *  will also have to be considered.
  * @param distanceToMove This will be negative for paddle to move in left direction 
  * and positive if it has to move towards right
  * @return Returns true if there is a paddle collision with either of the walls
@@ -157,7 +159,7 @@ public class Breakout extends GraphicsProgram {
 			return false;
 		}
 		//Checking for collision with right wall
-		else if ((currentX < newX) && (newX <= WIDTH)) {
+		else if ((distanceToMove > 0) && (paddle.getX() + PADDLE_WIDTH + )) {
 			return false;
 		}
 		return true;
