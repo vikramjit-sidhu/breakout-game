@@ -28,6 +28,8 @@ public class Breakout extends GraphicsProgram {
 /** Dimensions of the paddle */
 	private static final int PADDLE_WIDTH = 60;
 	private static final int PADDLE_HEIGHT = 10;
+	
+/**	Color of paddle */	
 
 /** Offset of the paddle up from the bottom */
 	private static final int PADDLE_Y_OFFSET = 30;
@@ -71,8 +73,12 @@ public class Breakout extends GraphicsProgram {
 	
 
 /**
- * 	Create a paddle and add it 	
+ * 	Create a paddle and add it to the window
+ * 	Mouse move listener has to be setup also for the paddle
  */
+	private void setupPaddle() {
+		Paddle paddle = new Paddle
+	}
 	
 	
 /**	
