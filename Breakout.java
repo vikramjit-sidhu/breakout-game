@@ -130,7 +130,7 @@ public class Breakout extends GraphicsProgram {
 	private boolean checkPaddleCollision(double currentX, double newX) {
 		//Checking if there is a collision with the left wall
 		if ((currentX > newX) && (newX >= 0)) {
-			return 
+			return false;
 		}
 	}
 	
