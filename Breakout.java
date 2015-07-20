@@ -107,7 +107,8 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	The paddle has to move with the mouse, right upto the edge of the boundary
- * 
+ * 	The mouse moved event calls this method and passes it the mouse event object.
+ * 	Using the mouse event, finding out its x location and hence calculating the paddle location from it
  */
 	private void setupPaddleListener(MouseEvent e) {
 		
