@@ -187,7 +187,6 @@ public class Breakout extends GraphicsProgram {
 	
 /**	
  * Calculates the starting location of the brick rows
- * 	
  * @return
  */
 	private int brickRowStartingLocation() {
