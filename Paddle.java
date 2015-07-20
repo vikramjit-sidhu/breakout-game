@@ -28,5 +28,6 @@ public class Paddle extends GraphicsProgram {
 	
 /**	INSTANCE VARIABLES	*/
 	
-/**	The paddle which the class is based on	*/	
+/**	The paddle which the class is based on	*/
+	private GRect paddle;
 }
