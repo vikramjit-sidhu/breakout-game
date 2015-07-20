@@ -127,7 +127,10 @@ public class Breakout extends GraphicsProgram {
  * @param newX	the mouse position, to which the paddle has to move to
  */
 	private boolean checkPaddleCollision(double currentX, double newX) {
-		if ((currentX > newX) && (newX >= 0) )
+		//Checking if there is a collision with the left wall
+		if ((currentX > newX) && (newX >= 0)) {
+			
+		}
 	}
 	
 	
