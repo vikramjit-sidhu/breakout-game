@@ -4,7 +4,8 @@ import acm.program.GraphicsProgram;
 /**
  *  The paddle object which is used in the Breakout game to bounce the ball back towards the
  *  brick rows.	
- *  Simply creates a GRect object with the desired attributes, sets mouse move event also for the paddle
+ *  Simply creates a GRect object with the desired attributes.
+ *  Need to pass height, width and color of paddle.
  */
 public class Paddle extends GraphicsProgram {
 	
