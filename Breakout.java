@@ -119,6 +119,7 @@ public class Breakout extends GraphicsProgram {
 		Point paddleLocation = new Point();
 		paddleLocation.x = (getWidth() / 2) - (PADDLE_WIDTH / 2);
 		paddleLocation.y = getHeight() - PADDLE_Y_OFFSET;
+		return paddleLocation;
 	}
 	
 /**	The paddle has to move with the mouse, right upto the edge of the boundary
