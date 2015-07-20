@@ -132,6 +132,7 @@ public class Breakout extends GraphicsProgram {
 		if ((currentX > newX) && (newX >= 0)) {
 			return false;
 		}
+		//Checking for collision with right wall
 		else if ((currentX < newX) && (newX <= WIDTH)) {
 			return false;
 		}
