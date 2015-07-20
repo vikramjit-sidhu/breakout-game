@@ -138,9 +138,8 @@ public class Breakout extends GraphicsProgram {
 		/*	The distance the paddle has to move, will be positive to move towards right wall and
 		 * 	if negative it will move towards left wall */
 		double distanceToMove = mouseLocation.x - e.getX();
-		/* Checking if there will be a collision with the game walls if the paddle moves towards that point */ 
+		/* Checking if there will be a collision with the game walls if the paddle moves the required distance */ 
 		if (!checkPaddleCollision(distanceToMove)) {
-			/* There is no collision with the walls, hence moving paddle to x and y locations */
 			
 		}
 	}
