@@ -81,6 +81,10 @@ public class Breakout extends GraphicsProgram {
 		addPaddle();
 	}
 	
+/**	
+ * 	Creates a paddle (GRect object) and adds it to the screen at the required co-ordinates	
+ */
+	
 	
 /**	
  * 	Creates the row of bricks near top of window
