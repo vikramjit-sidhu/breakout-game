@@ -133,7 +133,7 @@ public class Breakout extends GraphicsProgram {
 			return false;
 		}
 		else if ((currentX < newX) && (newX <= WIDTH)) {
-			
+			return false;
 		}
 	}
 	
