@@ -20,4 +20,9 @@ public class Paddle extends GraphicsProgram {
 		paddle.setFilled(true);
 		paddle.setFillColor(colorPaddle);
 	}
+	
+	public void setPaddleColor(Color paddleColor) {
+		paddle.setFilled(true);
+		paddle.setFillColor(colorPaddle);
+	}
 }
