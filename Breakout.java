@@ -102,9 +102,8 @@ public class Breakout extends GraphicsProgram {
  *  Adds color to the paddle, which is the defined constant
  */
 	private void addPaddle() {
-		
-		int paddleXLocation = (getWidth() / 2) - (PADDLE_WIDTH / 2);
-		
+		//Getting paddle start point
+		Point paddleStartPoint = 
 		int paddleYLocation = getHeight() - PADDLE_Y_OFFSET;
 		paddle = new GRect(paddleXLocation, paddleYLocation, PADDLE_WIDTH, PADDLE_HEIGHT);
 		paddle.setFilled(true);
@@ -112,7 +111,7 @@ public class Breakout extends GraphicsProgram {
 		add(paddle);
 	}
 	
-	private Point paddleInitialPoint() {
+	private Point getPaddleInitialPoint() {
 		Point paddleLocation = new Point();
 		/* The x location of the paddle, i.e. the GRect object which is at the x, y location of the screen. 
 		 * So it will be at centre of screen, minus half the 
