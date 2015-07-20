@@ -218,7 +218,7 @@ public class Breakout extends GraphicsProgram {
 		/* Total width of a brick row, also considering the separation between bricks 
 		 * If a row has n bricks, it will have n+1 separators 
 		 * (considering separation for starting and ending bricks too)*/
-		int brickRowWidth = BRICK_WIDTH * ((NBRICKS_PER_ROW+1) * BRICK_SEP) * NBRICKS_PER_ROW;
+		int brickRowWidth = (BRICK_WIDTH * NBRICKS_PER_ROW) + ((NBRICKS_PER_ROW+1) * BRICK_SEP);
 		/* The space remaining, this has to be divided between the beginning and ending of a row  */
 		int spaceRemaining = WIDTH - brickRowWidth;
 		/* spaceRemaining is the amount of x distance that has to be divided between the beginning and ending of rows
