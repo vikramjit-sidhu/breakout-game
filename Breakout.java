@@ -65,9 +65,14 @@ public class Breakout extends GraphicsProgram {
 	
 	private void setupEnviron() {
 		setupBricks();
-		addPaddle();
+		setupPaddle();
 	}
 	
+	
+
+/**
+ * 	Create a paddle and add it 	
+ */
 	
 	
 /**	
