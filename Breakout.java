@@ -83,7 +83,8 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	
- * 	Creates a paddle (GRect object) and adds it to the screen at the required co-ordinates	
+ * 	Creates a paddle (GRect object) and adds it to the screen at the required co-ordinates
+ *  Adds color to the paddle, which is the defined constant
  */
 	private void addPaddle() {
 		/* The x location of the paddle, so that it will be at centre of screen, minus half the 
