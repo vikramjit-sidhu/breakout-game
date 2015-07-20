@@ -215,7 +215,7 @@ public class Breakout extends GraphicsProgram {
  * @return
  */
 	private int brickRowStartingLocation() {
-		int startLocation;
+		int startLocation = BRICK_SEP;
 		/* Total width of a brick row, also considering the separation between bricks 
 		 * If a row has n bricks, it will have n+1 separators 
 		 * (considering separation for starting and ending bricks too)*/
