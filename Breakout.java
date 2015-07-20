@@ -225,7 +225,7 @@ public class Breakout extends GraphicsProgram {
 		 * so the x offset of the row is half of this distance	*/
 		int spaceRemaining = WIDTH - brickRowWidth;
 		if (spaceRemaining > 0) {
-			
+			startLocation += (spaceRemaining / 2);
 		}
 		return (spaceRemaining / 2);
 	}
