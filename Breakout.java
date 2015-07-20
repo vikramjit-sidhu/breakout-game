@@ -109,7 +109,7 @@ public class Breakout extends GraphicsProgram {
 /**	The paddle has to move with the mouse, right upto the edge of the boundary
  * 
  */
-	private void setupPaddleListener(MouseEvent event) {
+	private void setupPaddleListener(MouseEvent e) {
 		
 	}
 	
