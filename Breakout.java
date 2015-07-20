@@ -89,7 +89,7 @@ public class Breakout extends GraphicsProgram {
 		/* The x location of the paddle, so that it will be at centre of screen, minus half the 
 		 * paddle width. */
 		int paddleXLocation = getWidth() - (PADDLE_WIDTH / 2);
-		paddle = new GRect(centerLocation, PADDLE_Y_OFFSET, PADDLE_WIDTH, PADDLE_HEIGHT);
+		paddle = new GRect(paddleXLocation, PADDLE_Y_OFFSET, PADDLE_WIDTH, PADDLE_HEIGHT);
 		add(paddle);
 	}
 	
