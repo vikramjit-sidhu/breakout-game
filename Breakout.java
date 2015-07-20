@@ -124,7 +124,7 @@ public class Breakout extends GraphicsProgram {
 /**	Given the current paddle location, calculating that if it moves to the new position,
  * 	whether it will collide with the game walls	
  * @param currentX	The current x position of the GRect object which is paddle, it is top left corner
- * @param newX
+ * @param newX	the mouse position, to which the paddle has to move to
  */
 	private void paddleCollision(double currentX, double newX) {
 		
