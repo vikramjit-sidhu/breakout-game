@@ -236,4 +236,8 @@ public class Breakout extends GraphicsProgram {
 /**	The paddle, which is used to bounce the ball */
 	private GRect paddle;
 	
+/**	Current mouse location. This is saved and used later, 
+ * when the mouse moves to calculate change in position	
+ */
+	private Point mouseLocation;
 }
