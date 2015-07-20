@@ -85,7 +85,7 @@ public class Breakout extends GraphicsProgram {
  * 	Creates a paddle (GRect object) and adds it to the screen at the required co-ordinates	
  */
 	private void addPaddle() {
-		int centerLocation()
+		int centerLocation = getWidth() - (PADDLE_WIDTH / 2);
 		paddle = new GRect(, PADDLE_Y_OFFSET, PADDLE_WIDTH, PADDLE_HEIGHT);
 	}
 	
