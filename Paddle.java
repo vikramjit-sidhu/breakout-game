@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -11,5 +13,6 @@ public class Paddle extends GraphicsProgram {
 	
 	public Paddle(int paddleWidth, int paddleHeight, Color colorPaddle) {
 		GRect paddle = new GRect(paddleWidth, paddleHeight);
+		paddle
 	}
 }
