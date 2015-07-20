@@ -234,8 +234,8 @@ public class Breakout extends GraphicsProgram {
 /**	Creates a row of bricks starting at the x,y location
  * 	The x location is updated with the width of the brick and the separation between bricks.	
  * @param x	The x location of top left corner of GRect object which is brick
- * @param y
- * @param colorOfRow
+ * @param y	The y location of top left corner of GRect object which is brick
+ * @param colorOfRow The color of the brick, it is the same for the row
  */
 	private void createBrickRow(int x, int y, Color colorOfRow) {
 		for (int i=0; i<NBRICKS_PER_ROW; i++) {
