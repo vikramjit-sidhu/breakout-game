@@ -26,5 +26,7 @@ public class Paddle extends GraphicsProgram {
 		.setFillColor(colorPaddle);
 	}
 	
-/**	INSTANCE VARIABLES	*/	
+/**	INSTANCE VARIABLES	*/
+	
+/**	The paddle which the class is based on	*/	
 }
