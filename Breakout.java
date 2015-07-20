@@ -146,14 +146,14 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Given the current paddle location, calculating that if it moves to the new position,
  * 	whether it will collide with the game walls.
- *  distance
+ *  Distance will
  * @param distanceToMove This will be negative for paddle to move in left direction 
  * and positive if it has to move towards right
  * @return Returns true if there is a paddle collision with either of the walls
  */
 	private boolean checkPaddleCollision(double distanceToMove) {
 		//Checking if there is a collision with the left wall
-		if ((distanceToMove < 0) && ((paddle.getX() + distanceToMove) >= 0) {
+		if ((distanceToMove < 0) && ((paddle.getX() + distanceToMove) >= 0)) {
 			return false;
 		}
 		//Checking for collision with right wall
