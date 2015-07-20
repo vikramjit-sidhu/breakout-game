@@ -159,7 +159,7 @@ public class Breakout extends GraphicsProgram {
 			return false;
 		}
 		//Checking for collision with right wall
-		else if ((distanceToMove > 0) && (paddle.getX() + PADDLE_WIDTH + )) {
+		else if ((distanceToMove > 0) && ((paddle.getX() + PADDLE_WIDTH + distanceToMove) <= WIDTH)) {
 			return false;
 		}
 		return true;
