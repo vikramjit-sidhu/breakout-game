@@ -231,6 +231,12 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
+/**	Creates a row of bricks starting at the x,y location
+ * 	The x location is updated with the width of the brick and the separation between bricks.	
+ * @param x
+ * @param y
+ * @param colorOfRow
+ */
 	private void createBrickRow(int x, int y, Color colorOfRow) {
 		for (int i=0; i<NBRICKS_PER_ROW; i++) {
 			/* creating a rectangle, adding it to the screen	*/
