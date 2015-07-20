@@ -140,7 +140,7 @@ public class Breakout extends GraphicsProgram {
 		if (!checkPaddleCollision(distanceToMove)) {
 			Point oldLocation = new Point();
 			oldLocation.setLocation(paddle.getX(), paddle.getY());
-			paddle.move(oldLocation.getX() + distanceToMove, 0);
+			paddle.move(distanceToMove, 0);
 		}
 	}
 	
