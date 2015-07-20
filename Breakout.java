@@ -90,6 +90,7 @@ public class Breakout extends GraphicsProgram {
 		 */
 		int centerLocation = getWidth() - (PADDLE_WIDTH / 2);
 		paddle = new GRect(centerLocation, PADDLE_Y_OFFSET, PADDLE_WIDTH, PADDLE_HEIGHT);
+		add(paddle);
 	}
 	
 /**	
