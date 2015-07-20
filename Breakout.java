@@ -79,6 +79,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void setupPaddle() {
 		Paddle paddle = new Paddle(PADDLE_WIDTH, PADDLE_HEIGHT, PADDLE_COLOR);
+		add(paddle, getWidth / 2, PADDLE_Y_OFFSET);
 	}
 	
 	
