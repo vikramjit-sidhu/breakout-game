@@ -78,7 +78,7 @@ public class Breakout extends GraphicsProgram {
  * 	Mouse move listener has to be setup also for the paddle
  */
 	private void setupPaddle() {
-		Paddle paddle = new Paddle
+		Paddle paddle = new Paddle(PADDLE_WIDTH, PADDLE_HEIGHT, PADDLE_COLOR);
 	}
 	
 	
