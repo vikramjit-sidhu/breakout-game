@@ -66,11 +66,15 @@ public class Breakout extends GraphicsProgram {
 		setupEnviron();
 	}
 	
+	public void mouseMoved(MouseEvent e) {
+		
+	}
+	
+	
 	private void setupEnviron() {
 		setupBricks();
 		setupPaddle();
 	}
-	
 	
 
 /**
@@ -99,6 +103,15 @@ public class Breakout extends GraphicsProgram {
 		paddle.setFillColor(PADDLE_COLOR);
 		add(paddle);
 	}
+	
+/**	The paddle has to move with the mouse, right upto the edge of the boundary
+ * 
+ */
+	private void setupPaddleListener() {
+		
+	}
+	
+	
 	
 /**	
  * 	Creates the row of bricks near top of window
