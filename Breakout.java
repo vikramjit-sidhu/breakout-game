@@ -135,8 +135,7 @@ public class Breakout extends GraphicsProgram {
 		/* This is the x location of the top left corner of the GRect object which the paddle represents
 		 */
 		double paddleXLocation = paddle.getX();
-		double mouseXLocation = e.getX();
-		double distanceToMove = paddleXLocation - mouseXLocation;
+		double distanceToMove = mouseLocation.x - e.getX();
 		/* Checking if there will be a collision with the game walls if the paddle moves towards that point */ 
 		if (!checkPaddleCollision(paddleXLocation, mouseXLocation)) {
 			/* There is no collision with the walls, hence moving paddle to x and y locations */
