@@ -233,7 +233,7 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Creates a row of bricks starting at the x,y location
  * 	The x location is updated with the width of the brick and the separation between bricks.	
- * @param x
+ * @param x	The x location of top left corner of GRect object which is brick
  * @param y
  * @param colorOfRow
  */
