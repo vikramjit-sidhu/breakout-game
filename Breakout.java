@@ -227,7 +227,7 @@ public class Breakout extends GraphicsProgram {
 		if (spaceRemaining > 0) {
 			startLocation += (spaceRemaining / 2);
 		}
-		return (spaceRemaining / 2);
+		return startLocation;
 	}
 	
 	
