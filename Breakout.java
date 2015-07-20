@@ -162,7 +162,6 @@ public class Breakout extends GraphicsProgram {
 		else if ((distanceToMove > 0) && ((paddle.getX() + PADDLE_WIDTH + distanceToMove) <= WIDTH)) {
 			return false;
 		}
-		return true;
 	}
 	
 	
