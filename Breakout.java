@@ -93,6 +93,7 @@ public class Breakout extends GraphicsProgram {
 		 * hence calculating as such */
 		int paddleYLocation = getHeight() - PADDLE_Y_OFFSET;
 		paddle = new GRect(paddleXLocation, paddleYLocation, PADDLE_WIDTH, PADDLE_HEIGHT);
+		paddle.setFilled(true);
 		add(paddle);
 	}
 	
