@@ -126,7 +126,7 @@ public class Breakout extends GraphicsProgram {
  * @param currentX	The current x position of the GRect object which is paddle, it is top left corner
  * @param newX	the mouse position, to which the paddle has to move to
  */
-	private void paddleCollision(double currentX, double newX) {
+	private void checkPaddleCollision(double currentX, double newX) {
 		
 	}
 	
