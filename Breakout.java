@@ -125,11 +125,12 @@ public class Breakout extends GraphicsProgram {
  * 	whether it will collide with the game walls	
  * @param currentX	The current x position of the GRect object which is paddle, it is top left corner
  * @param newX	the mouse position, to which the paddle has to move to
+ * @return Returns true if there is a paddle collision with either of the walls
  */
 	private boolean checkPaddleCollision(double currentX, double newX) {
 		//Checking if there is a collision with the left wall
 		if ((currentX > newX) && (newX >= 0)) {
-			
+			return 
 		}
 	}
 	
