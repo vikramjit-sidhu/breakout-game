@@ -83,7 +83,6 @@ public class Breakout extends GraphicsProgram {
  */
 	private void setupPaddle() {
 		addPaddle();
-		setupPaddleListener();
 	}
 	
 /**	
