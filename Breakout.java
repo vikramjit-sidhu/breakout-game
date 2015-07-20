@@ -110,6 +110,10 @@ public class Breakout extends GraphicsProgram {
 		add(paddle);
 	}
 	
+/**	Returns the initial starting point of the paddle
+ * 	
+ * @return
+ */
 	private Point getPaddleInitialPoint() {
 		Point paddleLocation = new Point();
 		/* The x location of the paddle, i.e. the GRect object which is at the x, y location of the screen. 
