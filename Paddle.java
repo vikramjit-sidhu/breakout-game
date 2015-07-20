@@ -9,7 +9,7 @@ import acm.program.GraphicsProgram;
  *  Simply creates a GRect object with the desired attributes.
  *  Need to pass height, width and color of paddle.
  */
-public class Paddle extends GraphicsProgram {
+public class Paddle {
 	
 	public Paddle(int paddleWidth, int paddleHeight) {
 		paddle = new GRect(paddleWidth, paddleHeight);
