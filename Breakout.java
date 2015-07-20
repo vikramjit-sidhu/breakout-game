@@ -121,6 +121,10 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+	private void paddleCollision(currentX, newX) {
+		
+	}
+	
 	
 	
 /**	
