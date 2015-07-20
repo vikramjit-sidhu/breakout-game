@@ -22,7 +22,7 @@ public class Paddle extends GraphicsProgram {
 	}
 	
 	public void setPaddleColor(Color paddleColor) {
-		paddle.setFilled(true);
-		paddle.setFillColor(colorPaddle);
+		this.setFilled(true);
+		this.setFillColor(colorPaddle);
 	}
 }
