@@ -115,6 +115,7 @@ public class Breakout extends GraphicsProgram {
 		 */
 		double paddleXLocation = paddle.getX();
 		double mouseXLocation = e.getX();
+		/* Checking if there will be a collision with the game walls if the paddle moves towards that point */ 
 		if (!paddleCollision(paddleXLocation, mouseXLocation)) {
 			
 		}
