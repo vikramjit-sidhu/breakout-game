@@ -30,6 +30,7 @@ public class Breakout extends GraphicsProgram {
 	private static final int PADDLE_HEIGHT = 10;
 	
 /**	Color of paddle */	
+	private static final Color PADDLE_COLOR = Color.BLACK;
 
 /** Offset of the paddle up from the bottom */
 	private static final int PADDLE_Y_OFFSET = 30;
