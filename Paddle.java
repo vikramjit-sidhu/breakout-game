@@ -12,7 +12,7 @@ import acm.program.GraphicsProgram;
 public class Paddle extends GraphicsProgram {
 	
 	public Paddle(int paddleWidth, int paddleHeight) {
-		GRect paddle = new GRect(paddleWidth, paddleHeight);
+		Gpaddle = new GRect(paddleWidth, paddleHeight);
 	}
 	
 	public Paddle(int paddleWidth, int paddleHeight, Color colorPaddle) {
