@@ -103,7 +103,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void addPaddle() {
 		//Getting paddle start point
-		Point paddleStartPoint = 
+		Point paddleStartPoint = getPaddleInitialPoint(); 
 		int paddleYLocation = getHeight() - PADDLE_Y_OFFSET;
 		paddle = new GRect(paddleXLocation, paddleYLocation, PADDLE_WIDTH, PADDLE_HEIGHT);
 		paddle.setFilled(true);
