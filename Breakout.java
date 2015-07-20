@@ -174,6 +174,7 @@ public class Breakout extends GraphicsProgram {
  * This is used to generate random colours and random numbers as the case may be	*/
 	private RandomGenerator randomGen = new RandomGenerator();
 	
-/**	The paddle, which is used to bounce the ball */	
+/**	The paddle, which is used to bounce the ball */
+	private GRect paddle;
 	
 }
