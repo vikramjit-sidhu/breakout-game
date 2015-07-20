@@ -80,6 +80,14 @@ public class Breakout extends GraphicsProgram {
 		setInitialMouseLocation();
 	}
 	
+	
+/**	Setting the initial mouse location to be the same as the x, y co-ordinates of the 
+ * 	paddle object.
+ */
+	private void setInitialMouseLocation() {
+		mouseLocation.x = 
+	}
+	
 
 /**
  * 	Create a paddle and add it to the window
@@ -105,6 +113,10 @@ public class Breakout extends GraphicsProgram {
 		paddle.setFilled(true);
 		paddle.setFillColor(PADDLE_COLOR);
 		add(paddle);
+	}
+	
+	private Point paddleInitialPoint() {
+		Point paddleLocation = new Point();
 	}
 	
 /**	The paddle has to move with the mouse, right upto the edge of the boundary
