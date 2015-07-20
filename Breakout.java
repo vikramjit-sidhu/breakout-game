@@ -114,8 +114,7 @@ public class Breakout extends GraphicsProgram {
 		/* This is the x location of the top left corner of the GRect object which the paddle represents
 		 */
 		double paddleXLocation = paddle.getX();
-		
-		
+		double mouseXLocation = e.getX();
 	}
 	
 	
