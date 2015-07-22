@@ -101,7 +101,7 @@ public class Breakout extends GraphicsProgram {
 	
 	
 /**	Sets up the ball at the center of the screen.
- * 	Creates a GOval object	
+ * 	Creates a GOval object, with the constants as parameters	
  */
 	private void setBallAtInitialLocation() {
 		
