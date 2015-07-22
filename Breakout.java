@@ -80,7 +80,9 @@ public class Breakout extends GraphicsProgram {
 		mouseLocation = e.getPoint();
 	}
 	
-	
+/**	Sets up the environment for the breakout game
+ * 	The bricks on the top row are created, which are used to play the game
+ */
 	private void setupEnviron() {
 		setupBricks();
 		setupPaddle();
