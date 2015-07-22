@@ -299,5 +299,6 @@ public class Breakout extends GraphicsProgram {
  */
 	private double ballvx, ballvy;
 	
-/**	The ball which bounces around and causes the game to progess */	
+/**	The ball which bounces around and causes the game to progess */
+	private GOval ball;
 }
