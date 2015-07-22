@@ -70,7 +70,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	This method is called each time the mouse moves
- * 	On movement of the mouse, the paddle location 
+ * 	On movement of the mouse, the paddle location has to be updated
  */
 	public void mouseMoved(MouseEvent e) {
 		setupPaddleListener(e);
