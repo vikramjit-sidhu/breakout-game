@@ -216,7 +216,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private int brickRowStartingLocation() {
 		/* The starting offset of the first brick, it will atleast be the brick separation */
-		int startLocation = BRICK_SEP;
+		int startLocation = 0;
 		/* Total width of a brick row, also considering the separation between bricks 
 		 * If a row has n bricks, it will have n+1 space separators 
 		 * (considering separation for starting and ending bricks too)*/
