@@ -82,6 +82,7 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Sets up the environment for the breakout game
  * 	The bricks on the top row are created, which are used to play the game
+ * 	Creates the paddle off which the ball will bounce
  */
 	private void setupEnviron() {
 		setupBricks();
