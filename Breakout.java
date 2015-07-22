@@ -106,7 +106,7 @@ public class Breakout extends GraphicsProgram {
  * 	co-ordinates are the top left corner of the rectangle and not the center of ball	
  */
 	private void setBallAtInitialLocation() {
-		ball = new GOval();
+		ball = new GOval( , , BALL_RADIUS, BALL_RADIUS);
 	}
 	
 	
