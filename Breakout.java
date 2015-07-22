@@ -127,6 +127,14 @@ public class Breakout extends GraphicsProgram {
 		add(ball);
 	}
 	
+/**	Sets the initial velocity of the ball, at the beginning of the game.
+ * 	Sets the ballvy variable to a constant, this velocity is always positive, (in the downwards direction)
+ * 	randomly chooses the ballvx variable	
+ */
+	private void initializeInitialVelocityOfBall() {
+		
+	}
+	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
  *  has crashed into the lower wall
  */
