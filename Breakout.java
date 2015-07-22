@@ -99,6 +99,15 @@ public class Breakout extends GraphicsProgram {
 		mouseLocation = getPaddleInitialPoint();
 	}
 	
+	
+/**	Sets up the ball at the center of the screen.
+ * 		
+ */
+	private void setBallAtInitialLocation() {
+		
+	}
+	
+	
 
 /**
  * 	Create a paddle and add it to the window
