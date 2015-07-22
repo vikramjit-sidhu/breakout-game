@@ -96,7 +96,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	Start the game. Consists of initializing the velocity of the ball and starting its motion
- * 	Keep track of the number of turns the user has left. 	
+ * 	Keep track of the number of turns the user has left. Initially giving it the value of constant 	
  */
 	private void startGame() {
 		int numTurns = NTURNS;
