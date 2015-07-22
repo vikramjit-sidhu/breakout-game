@@ -122,8 +122,8 @@ public class Breakout extends GraphicsProgram {
  * 	co-ordinates are the top left corner of the rectangle and not the center of ball	
  */
 	private void setBallAtInitialLocation() {
-		double ballx = (getWidth() / 2) - (BALL_RADIUS / 2);
-		double bally = (getHeight() / 2) - (BALL_RADIUS / 2);
+		double ballx = (WIDTH / 2) - (BALL_RADIUS / 2);
+		double bally = (HEIGHT / 2) - (BALL_RADIUS / 2);
 		ball = new GOval(ballx, bally, BALL_RADIUS, BALL_RADIUS);
 		ball.setFilled(true);
 		ball.setFillColor(BALL_COLOR);
