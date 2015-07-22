@@ -252,7 +252,7 @@ public class Breakout extends GraphicsProgram {
  * @param x @param y the x, y location of the top right corner of the rectangle
  * @param colorOfRect the color to fill in the rectangle
  */
-	private GRect createRectangle(int x, int y, Color colorOfRect) {
+	private GRect createBrick(int x, int y, Color colorOfRect) {
 		GRect rectangle = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
 		rectangle.setFilled(true);
 		rectangle.setFillColor(colorOfRect);
