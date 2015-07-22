@@ -56,6 +56,8 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Color of the ball */
 	private static final Color BALL_COLOR = Color.BLACK;
+	
+/**	The initial value of the velocity of the ball in the y direction */	
 
 /** Offset of the top brick row from the top */
 	private static final int BRICK_Y_OFFSET = 70;
