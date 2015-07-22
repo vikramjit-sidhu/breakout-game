@@ -109,7 +109,6 @@ public class Breakout extends GraphicsProgram {
  * 	co-ordinates are the top left corner of the rectangle and not the center of ball	
  */
 	private void setBallAtInitialLocation() {
-		remove(ball);
 		double ballx = getWidth() - (BALL_RADIUS / 2);
 		double bally = getHeight() - (BALL_RADIUS / 2);
 		ball = new GOval(ballx, bally, BALL_RADIUS, BALL_RADIUS);
