@@ -112,6 +112,7 @@ public class Breakout extends GraphicsProgram {
 		ball = new GOval( , , BALL_RADIUS, BALL_RADIUS);
 		ball.setFilled(true);
 		ball.setFillColor(BALL_COLOR);
+		add(ball)l
 	}
 	
 	
