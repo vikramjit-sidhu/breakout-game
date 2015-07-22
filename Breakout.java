@@ -91,7 +91,7 @@ public class Breakout extends GraphicsProgram {
 		setupBricks();
 		setupPaddle();
 		setInitialMouseLocation();
-		setBallAtInitialLocation();
+//		setBallAtInitialLocation();
 	}
 	
 	
