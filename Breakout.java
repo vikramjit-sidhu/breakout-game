@@ -99,8 +99,9 @@ public class Breakout extends GraphicsProgram {
  * 	Keep track of the number of turns the user has left. Initially giving it the value of constant NTURNS 	
  */
 	private void startGame() {
-		int numTurns = NTURNS;
-		
+		for (int i=0; i < NTURNS; i++) {
+			
+		}
 	}
 	
 	
