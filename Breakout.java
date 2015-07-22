@@ -110,8 +110,8 @@ public class Breakout extends GraphicsProgram {
  */
 	private void setBallAtInitialLocation() {
 		remove(ball);
-		double ballx = getWidth() - BALL_RADIUS;
-		double bally = getHeight() - BALL_RADIUS;
+		double ballx = getWidth() - (BALL_RADIUS / 2);
+		double bally = getHeight() - (BALL_RADIUS / 2);
 		ball = new GOval(ballx, bally, BALL_RADIUS, BALL_RADIUS);
 		ball.setFilled(true);
 		ball.setFillColor(BALL_COLOR);
