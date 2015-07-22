@@ -126,9 +126,10 @@ public class Breakout extends GraphicsProgram {
 		add(ball);
 	}
 	
-/**	Remove the ball from the screen. This method is usually called at the end of a turn	
+/**	Remove the ball from the screen. This method is usually called at the end of a turn
+ */
 	private void removeBall() {
-		
+		remove(ball);
 	}
 
 /**
