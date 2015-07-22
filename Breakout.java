@@ -277,4 +277,8 @@ public class Breakout extends GraphicsProgram {
  * when the mouse moves to calculate change in position	
  */
 	private Point mouseLocation;
+	
+/** The velocity of the ball is kept track using these variables
+ */
+	private double ballvx, ballvy;
 }
