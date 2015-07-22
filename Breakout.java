@@ -77,6 +77,7 @@ public class Breakout extends GraphicsProgram {
  */
 	public void mouseMoved(MouseEvent e) {
 		setupPaddleListener(e);
+		startGame();
 		
 		//Updating the past mouse location, this is used later to calculate the change in position
 		mouseLocation = e.getPoint();
@@ -92,6 +93,10 @@ public class Breakout extends GraphicsProgram {
 		setupPaddle();
 		setInitialMouseLocation();
 		setBallAtInitialLocation();
+	}
+	
+	private void startGame() {
+		
 	}
 	
 	
