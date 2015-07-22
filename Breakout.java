@@ -298,4 +298,6 @@ public class Breakout extends GraphicsProgram {
 /** The velocity of the ball is kept track using these variables
  */
 	private double ballvx, ballvy;
+	
+/**	The ball which bounces around and causes the game to progess */	
 }
