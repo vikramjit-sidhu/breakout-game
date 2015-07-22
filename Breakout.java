@@ -176,7 +176,7 @@ public class Breakout extends GraphicsProgram {
 		/* The x location of the paddle, i.e. the GRect object which is at the x, y location of the screen. 
 		 * So it will be at centre of screen, minus half the 
 		 * paddle width. */
-		paddleLocation.x = (getWidth() / 2) - (PADDLE_WIDTH / 2);
+		paddleLocation.x = (WIDTH / 2) - (PADDLE_WIDTH / 2);
 		/* The y offset of the paddle is given from the bottom of the screen, 
 		 * hence calculating as such */
 		paddleLocation.y = getHeight() - PADDLE_Y_OFFSET;
