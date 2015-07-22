@@ -239,7 +239,7 @@ public class Breakout extends GraphicsProgram {
 	private void createBrickRow(int x, int y, Color colorOfRow) {
 		for (int i=0; i<NBRICKS_PER_ROW; i++) {
 			/* creating a rectangle, adding it to the screen	*/
-			GRect rectangle = createRectangle(x, y, colorOfRow);
+			GRect rectangle = createBrick(x, y, colorOfRow);
 			add(rectangle);
 			/* the x location of the next brick 	*/
 			x += (BRICK_WIDTH + BRICK_SEP);
