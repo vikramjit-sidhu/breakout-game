@@ -55,7 +55,7 @@ public class Breakout extends GraphicsProgram {
 	private static final int BALL_RADIUS = 10;
 	
 /**	Color of the ball */
-	private static final Color BALL_COLOR = Color.BLACK
+	private static final Color BALL_COLOR = Color.BLACK;
 
 /** Offset of the top brick row from the top */
 	private static final int BRICK_Y_OFFSET = 70;
