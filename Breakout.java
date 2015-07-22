@@ -179,7 +179,7 @@ public class Breakout extends GraphicsProgram {
 		paddleLocation.x = (WIDTH / 2) - (PADDLE_WIDTH / 2);
 		/* The y offset of the paddle is given from the bottom of the screen, 
 		 * hence calculating as such */
-		paddleLocation.y = getHeight() - PADDLE_Y_OFFSET;
+		paddleLocation.y = HEIGHT - PADDLE_Y_OFFSET;
 		return paddleLocation;
 	}
 	
