@@ -99,8 +99,9 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	Clears the GraphicsProgram container of all elements.
- * 	This method is used at the end of a turn, where there may be some bricks left over, but they have to be 
- * 	removed to prepare for the next turn.	
+ * 	This method is used at the end of a turn, where there may be some bricks left over, 
+ * 	the ball may be in a random location 
+ *  These elements have to be removed to prepare for the next turn.	
  */
 	private void clearEnviron() {
 		
