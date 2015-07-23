@@ -373,6 +373,10 @@ public class Breakout extends GraphicsProgram {
  */
 	private Point mouseLocation;
 	
+/**	Keeps track of the number of bricks remaining in the game
+ * 	During the course of the game, as the ball collides with a brick, that brick is removed	
+ */
+	
 /** The velocity of the ball is kept track using these variables
  */
 	private double ballvx, ballvy;
