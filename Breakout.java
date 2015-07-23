@@ -105,7 +105,7 @@ public class Breakout extends GraphicsProgram {
 		for (int i=0; i < NTURNS; i++) {
 			initializeInitialVelocityOfBall();
 			moveBall();
-			removeBall()
+			removeBall();
 		}
 	}
 	
