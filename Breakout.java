@@ -118,7 +118,7 @@ public class Breakout extends GraphicsProgram {
 		for (int i=0; i < NTURNS; i++) {
 			initializeInitialVelocityOfBall();
 			/* This method will finish when a turn is up, or bricks are over */
-			moveBall();
+			bounceAroundBall();
 			/* At end of a turn, remove all elements from screen */
 			clearEnviron();
 			/* Reset the environment for the next turn, or if turns are over just display the environment
@@ -181,7 +181,7 @@ public class Breakout extends GraphicsProgram {
  * 	Checks for collision of the ball, with container walls of the game, with the paddle and the bricks
  * 	A check is also contained to see if there are any bricks left, if not, the game is over
  */
-	private void moveBall() {
+	private void bounceAroundBall() {
 		while (true) {
 			
 			
