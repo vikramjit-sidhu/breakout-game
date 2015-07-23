@@ -240,6 +240,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
+	
 /**	METHODS RELATED TO INITIALIZING BRICKS */	
 	
 /**	
