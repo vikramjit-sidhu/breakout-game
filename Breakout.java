@@ -2,6 +2,7 @@
  * File: Breakout.java
 
  * This file implements the breakout game.
+ * For more info, check here:
  * https://en.wikipedia.org/wiki/Breakout_%28video_game%29
  */
 
