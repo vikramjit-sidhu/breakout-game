@@ -213,6 +213,9 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
+	private boolean checkGameOver() 
+	
+	
 /**	METHODS RELATED TO PADDLE */
 	
 /**
