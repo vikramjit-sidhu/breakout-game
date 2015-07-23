@@ -108,7 +108,7 @@ public class Breakout extends GraphicsProgram {
 			moveBall();
 			/* At end of a turn, remove ball from whatever its current location on screen is */
 			removeBall();
-			/* Reset the environment for the next turn, or if turns are over just keep it as such	*/
+			/* Reset the environment for the next turn, or if turns are over just keep it as such */
 			setupEnviron();
 		}
 	}
