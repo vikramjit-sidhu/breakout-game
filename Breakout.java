@@ -194,7 +194,7 @@ public class Breakout extends GraphicsProgram {
  * 	ballvx and ballvy variables	are used to update the location, these values are the delta change in position
  */
 	private void moveBall() {
-		
+		ball.move(ballvx, ballvy);
 	}
 	
 	
