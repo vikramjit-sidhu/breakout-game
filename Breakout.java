@@ -105,6 +105,7 @@ public class Breakout extends GraphicsProgram {
 		for (int i=0; i < NTURNS; i++) {
 			initializeInitialVelocityOfBall();
 			moveBall();
+			removeBall()
 		}
 	}
 	
@@ -158,6 +159,9 @@ public class Breakout extends GraphicsProgram {
 		return randomGen.nextDouble(1.0, 3.0);
 	}
 
+/**	
+ * 	
+ */
 	private void moveBall() {
 		
 	}
