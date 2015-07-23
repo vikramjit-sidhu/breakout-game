@@ -136,7 +136,7 @@ public class Breakout extends GraphicsProgram {
  * 	it can be positive or negative, which is also randomly chosen 
  */
 	private void initializeInitialVelocityOfBall() {
-		
+		ballvy = BALL_Y_VELOCITY;
 	}
 	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
