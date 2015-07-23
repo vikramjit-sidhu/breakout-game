@@ -198,6 +198,10 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
+	private void handleBallCollisions() {
+		
+	}
+	
 	
 /**	METHODS RELATED TO PADDLE */
 	
