@@ -212,8 +212,15 @@ public class Breakout extends GraphicsProgram {
 		
 	}
 	
-	
-	private boolean checkGameOver() 
+/**	Checks the game to see if a turn is over. 
+ * 	For a turn to be over:
+ * 		1. Ball collides with lower wall
+ * 		2. All bricks are finished	
+ * @return
+ */
+	private boolean checkGameOver() {
+		
+	}
 	
 	
 /**	METHODS RELATED TO PADDLE */
