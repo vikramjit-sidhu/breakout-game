@@ -1,9 +1,6 @@
 /*
  * File: Breakout.java
- * -------------------
- * Name:
- * Section Leader:
- * 
+
  * This file will eventually implement the game of Breakout.
  */
 
@@ -65,6 +62,11 @@ public class Breakout extends GraphicsProgram {
 
 /** Number of turns */
 	private static final int NTURNS = 3;
+	
+/**	The delay variable; after these many milliseconds, the ball is moved.
+ * 		
+ */
+	
 
 /** Runs the Breakout program. */
 	public void run() {
