@@ -106,6 +106,7 @@ public class Breakout extends GraphicsProgram {
 			initializeInitialVelocityOfBall();
 			/* This method will finish when a turn is up, or bricks are over */
 			moveBall();
+			/* At end of a turn, remove ball from whatever its current location on screen is	*/
 			removeBall();
 			setupEnviron();
 		}
