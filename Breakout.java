@@ -115,6 +115,7 @@ public class Breakout extends GraphicsProgram {
 		mouseLocation = getPaddleInitialPoint();
 	}
 	
+/**	METHODS RELATED TO BALL MOTION */
 	
 /**	Sets up the ball at the center of the screen.
  * 	Creates a GOval object, with the BALL_RADIUS as a parameter for the width and height of rectangle
