@@ -138,7 +138,9 @@ public class Breakout extends GraphicsProgram {
 	private void initializeInitialVelocityOfBall() {
 		ballvy = BALL_Y_VELOCITY;
 		ballvx = getRandomXVelocity();
-		if (randomGen.nextBoolean(p))
+		if (randomGen.nextBoolean(0.5)) {
+			
+		}
 	}
 	
 
