@@ -118,7 +118,7 @@ public class Breakout extends GraphicsProgram {
 			/* At end of a turn, remove all elements from screen */
 			clearEnviron();
 			/* Reset the environment for the next turn, or if turns are over just display the environment
-			 * (to show the user what s/he are missing >:) */
+			 * (to show the user what s/he are missing >:) ) */
 			setupEnviron();
 		}
 	}
