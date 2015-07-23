@@ -115,6 +115,7 @@ public class Breakout extends GraphicsProgram {
 		mouseLocation = getPaddleInitialPoint();
 	}
 	
+
 	
 /**	METHODS RELATED TO BALL MOTION */
 	
@@ -162,6 +163,7 @@ public class Breakout extends GraphicsProgram {
 	private void removeBall() {
 		remove(ball);
 	}
+
 
 	
 /**	METHODS RELATED TO PADDLE */
