@@ -142,7 +142,6 @@ public class Breakout extends GraphicsProgram {
 	
 
 /**	Generate a random velocity (data type double) between 1.0 and 3.0. 
- * 	The randomGen instance variable is used to get the value
  * @return
  */
 	private double getRandomXVelocity() {
