@@ -1,7 +1,7 @@
 /*
  * File: Breakout.java
 
- * This file will eventually implement the game of Breakout.
+ * This file implements the breakout game.
  */
 
 import acm.graphics.*;
