@@ -98,6 +98,14 @@ public class Breakout extends GraphicsProgram {
 		setBallAtInitialLocation();
 	}
 	
+/**	Clears the GraphicsProgram container of all elements.
+ * 	This method is used at the end of a turn, where there may be some bricks left over, but they have to be 
+ * 	removed to prepare for the next turn.	
+ */
+	private void clearEnviron() {
+		
+	}
+	
 /**	Start the game. Consists of initializing the velocity of the ball and starting its motion
  * 	Running a loop NTURNS number of times, the whole turn of a player is captured inside this loop
  */
