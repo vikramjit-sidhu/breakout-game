@@ -162,6 +162,7 @@ public class Breakout extends GraphicsProgram {
 		remove(ball);
 	}
 
+	
 /**
  * 	Create a paddle and add it to the window
  * 	Mouse move listener has to be setup also for the paddle
