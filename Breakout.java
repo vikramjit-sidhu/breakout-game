@@ -183,7 +183,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void bounceAroundBall() {
 		while (true) {
-			
+			moveBall();
 			
 			pause(DELAY);
 		}
