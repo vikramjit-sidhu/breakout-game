@@ -206,7 +206,6 @@ public class Breakout extends GraphicsProgram {
  *   with right wall - invert x velocity, choose a random value for x velocity
  *   with upper wall - invert y velocity
  *   with paddle - invert y velocity
- *   with lower wall - end game
  *   with bricks - remove brick and invert y velocity
  */
 	private void handleBallCollisions() {
