@@ -106,7 +106,6 @@ public class Breakout extends GraphicsProgram {
 			initializeInitialVelocityOfBall();
 			moveBall();
 			removeBall();
-			setBallAtInitialLocation();
 		}
 	}
 	
