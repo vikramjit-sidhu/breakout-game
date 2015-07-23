@@ -363,7 +363,7 @@ public class Breakout extends GraphicsProgram {
 
 	
 /**
- * 	INSTANCE VARIABLESL USED IN PROGRAM
+ * 	INSTANCE VARIABLES
  */
 	
 /**	Random generator class instance
