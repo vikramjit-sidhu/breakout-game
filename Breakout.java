@@ -283,8 +283,6 @@ public class Breakout extends GraphicsProgram {
 			/* The next row must be created with the following brick separation	*/
 			brickRowYLocation += (BRICK_HEIGHT + BRICK_SEP);
 		}
-		/* Sets the instance variable with the number of bricks in the game */
-		numBricksRemInTurn = NBRICKS_PER_ROW * NBRICK_ROWS;
 	}
 	
 /**
