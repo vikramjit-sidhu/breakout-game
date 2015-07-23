@@ -184,6 +184,7 @@ public class Breakout extends GraphicsProgram {
 	private void bounceAroundBall() {
 		while (true) {
 			moveBall();
+			checkCollisions();
 			if (checkCollisionWithLowerWall()) {
 				break;
 			}
