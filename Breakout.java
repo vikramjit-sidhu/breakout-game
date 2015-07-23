@@ -173,7 +173,8 @@ public class Breakout extends GraphicsProgram {
 		return randomGen.nextDouble(1.0, 3.0);
 	}
 
-/**	Moves the ball around on the screen, basically the main method in the playing of the game
+/**	Moves the ball around on the screen, basically the main method in the playing of the game.
+ * 	Checks for collision of the ball, with container walls of the game, with the paddle and the bricks
  * 	
  */
 	private void moveBall() {
