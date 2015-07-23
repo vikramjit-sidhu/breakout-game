@@ -115,6 +115,7 @@ public class Breakout extends GraphicsProgram {
 		mouseLocation = getPaddleInitialPoint();
 	}
 	
+	
 /**	METHODS RELATED TO BALL MOTION */
 	
 /**	Sets up the ball at the center of the screen.
@@ -162,6 +163,8 @@ public class Breakout extends GraphicsProgram {
 		remove(ball);
 	}
 
+	
+/**	METHODS RELATED TO PADDLE */
 	
 /**
  * 	Create a paddle and add it to the window
