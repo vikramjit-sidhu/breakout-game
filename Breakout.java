@@ -1,4 +1,4 @@
-/*
+/**
  * File: Breakout.java
 
  * This file implements the breakout game.
