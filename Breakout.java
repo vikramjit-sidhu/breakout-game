@@ -73,7 +73,6 @@ public class Breakout extends GraphicsProgram {
 /** Runs the Breakout program. */
 	public void run() {
 		setupEnviron();
-		
 		/* Need to call this method to add mouse listener events */
 		addMouseListeners();
 		/* Once mouse listener has been added, game can start */
