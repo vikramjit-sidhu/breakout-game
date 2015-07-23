@@ -104,7 +104,7 @@ public class Breakout extends GraphicsProgram {
  *  These elements have to be removed to prepare for the next turn.	
  */
 	private void clearEnviron() {
-		
+		removeAll();
 	}
 	
 /**	Start the game. Consists of initializing the velocity of the ball and starting its motion
