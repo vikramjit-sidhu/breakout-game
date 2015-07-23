@@ -240,6 +240,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
+/**	METHODS RELATED TO INITIALIZING BRICKS */	
 	
 /**	
  * 	Creates the row of bricks near top of window
