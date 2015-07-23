@@ -383,7 +383,7 @@ public class Breakout extends GraphicsProgram {
  * 	Once all the bricks are removed, the game ends, this variable helps keep track of that
  * 	Initialized in setupBricks() method	
  */
-	private int numBricksRemInTurn;
+	private int numBricksRemInTurn = NBRICKS_PER_ROW * NBRICK_ROWS;
 	
 /** The velocity of the ball is kept track using these variables
  */
