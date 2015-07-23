@@ -182,14 +182,6 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 	
-/**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
- *  has crashed into the lower wall
- */
-	private void removeBall() {
-		remove(ball);
-	}
-
-
 	
 /**	METHODS RELATED TO PADDLE */
 	
