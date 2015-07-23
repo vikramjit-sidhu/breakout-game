@@ -157,6 +157,11 @@ public class Breakout extends GraphicsProgram {
 	private double getRandomXVelocity() {
 		return randomGen.nextDouble(1.0, 3.0);
 	}
+
+	private void moveBall() {
+		
+	}
+	
 	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
  *  has crashed into the lower wall
