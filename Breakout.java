@@ -139,7 +139,8 @@ public class Breakout extends GraphicsProgram {
 		ballvy = BALL_Y_VELOCITY;
 		ballvx = getRandomXVelocity();
 		/* Gets the next boolean value (true or false) with probability 0.5, it is possible to set a
-		 * biased coin with this variation of the nextBoolean method, used here to randomly set the x velocity direction */
+		 * biased coin with this variation of the nextBoolean method, 
+		 * used here to randomly set the x velocity direction */
 		if (randomGen.nextBoolean(0.5)) {
 			ballvx = -ballvx;
 		}
