@@ -66,7 +66,7 @@ public class Breakout extends GraphicsProgram {
 /**	The delay variable; after these many milliseconds, the ball is moved.
  * 		
  */
-	
+	private static final int DELAY = 42;
 
 /** Runs the Breakout program. */
 	public void run() {
