@@ -189,6 +189,14 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**	Move the ball
+ * 	Update the position of the ball, using the move method 
+ * 	ballvx and ballvy variables	are used to update the location, these values are the delta change in position
+ */
+	private void moveBall() {
+		
+	}
+	
 	
 	
 /**	METHODS RELATED TO PADDLE */
