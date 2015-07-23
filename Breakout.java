@@ -200,7 +200,15 @@ public class Breakout extends GraphicsProgram {
 		ball.move(ballvx, ballvy);
 	}
 	
-	
+/**	Handle the changes which happen in the game as the ball collides with objects.
+ * 	The following changes are handled here:
+ * 	 with left wall - invert x velocity, choose a random value for x velocity
+ *   with right wall - invert x velocity, choose a random value for x velocity
+ *   with upper wall - invert y velocity
+ *   with paddle - invert y velocity
+ *   with lower wall - end game
+ *   with bricks - remove brick and invert y velocity
+ */
 	private void handleBallCollisions() {
 		
 	}
