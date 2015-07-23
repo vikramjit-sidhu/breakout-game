@@ -104,6 +104,7 @@ public class Breakout extends GraphicsProgram {
 	private void startGame() {
 		for (int i=0; i < NTURNS; i++) {
 			initializeInitialVelocityOfBall();
+			/* This method will finish when a turn is up, or bricks are over */
 			moveBall();
 			removeBall();
 			setupEnviron();
