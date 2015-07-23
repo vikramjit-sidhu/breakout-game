@@ -146,7 +146,7 @@ public class Breakout extends GraphicsProgram {
  *  @return a double value between 1 and 3
  */
 	private double getRandomXVelocity() {
-		return randomGen.nextDouble(1, 3);
+		return randomGen.nextDouble(1.0, 3.0);
 	}
 	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
