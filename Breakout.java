@@ -216,9 +216,9 @@ public class Breakout extends GraphicsProgram {
  * 	For a turn to be over:
  * 		1. Ball collides with lower wall
  * 		2. All bricks are finished	
- * @return
+ * @return	true if turn is over
  */
-	private boolean checkGameOver() {
+	private boolean checkTurnOver() {
 		
 	}
 	
