@@ -64,7 +64,7 @@ public class Breakout extends GraphicsProgram {
 	private static final int NTURNS = 3;
 	
 /**	The delay variable; after these many milliseconds, the ball is moved.
- * 		
+ * 	
  */
 	private static final int DELAY = 42;
 
@@ -267,6 +267,7 @@ public class Breakout extends GraphicsProgram {
 /**	
  * 	Creates the row of bricks near top of window
  * 	the rows are coloured in groups of 2.
+ * 	Sets up the instance variable which keeps track of the number of bricks remaining in a turn
  */
 	private void setupBricks() {
 		/*This is the y location of the first row from the top	*/
