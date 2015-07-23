@@ -182,7 +182,11 @@ public class Breakout extends GraphicsProgram {
  * 	A check is also contained to see if there are any bricks left, if not, the game is over
  */
 	private void moveBall() {
-		
+		while (true) {
+			
+			
+			pause(DELAY);
+		}
 	}
 	
 	
