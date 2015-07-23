@@ -138,6 +138,7 @@ public class Breakout extends GraphicsProgram {
 	private void initializeInitialVelocityOfBall() {
 		ballvy = BALL_Y_VELOCITY;
 		ballvx = getRandomXVelocity();
+		if (randomGen.nextBoolean(p))
 	}
 	
 
@@ -332,7 +333,7 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Random generator class instance
  * This is used to generate random colours and random numbers as the case may be	*/
-	private RandomGenerator randomGen = new RandomGenerator();
+	private RandomGenerator randomGen = RandomGenerator.getInstance();
 	
 /**	The paddle, which is used to bounce the ball */
 	private GRect paddle;
