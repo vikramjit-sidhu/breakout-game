@@ -137,7 +137,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void initializeInitialVelocityOfBall() {
 		ballvy = BALL_Y_VELOCITY;
-		ballvx = randomGen.nextDouble();
+		ballvx = getRandomXVelocity();
 	}
 	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
