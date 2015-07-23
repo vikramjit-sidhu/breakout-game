@@ -175,7 +175,7 @@ public class Breakout extends GraphicsProgram {
 
 /**	Moves the ball around on the screen, basically the main method in the playing of the game.
  * 	Checks for collision of the ball, with container walls of the game, with the paddle and the bricks
- * 	
+ * 	A check is also contained to see if there are any bricks left, if not, the game is over
  */
 	private void moveBall() {
 		
