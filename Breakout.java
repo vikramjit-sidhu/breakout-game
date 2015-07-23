@@ -140,6 +140,15 @@ public class Breakout extends GraphicsProgram {
 		ballvx = getRandomXVelocity();
 	}
 	
+
+/**	Generate a random velocity (data type double) between 1.0 and 3.0. 
+ * 	The randomGen instance variable is used to get the value
+ * @return
+ */
+	private double getRandomXVelocity() {
+		
+	}
+	
 /**	Remove the ball from the screen. This method is usually called at the end of a turn, when the ball
  *  has crashed into the lower wall
  */
