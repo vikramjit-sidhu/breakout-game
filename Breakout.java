@@ -132,7 +132,8 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Sets the initial velocity of the ball, at the beginning of the game.
  * 	Sets the ballvy to a constant, this velocity is initially always positive (in the downwards direction)
- * 	randomly chooses the ballvx value, it can be positive or negative, which is also randomly chosen 
+ * 	randomly chooses the ballvx value (a method is called for it), 
+ * 	it can be positive or negative, which is also randomly chosen 
  */
 	private void initializeInitialVelocityOfBall() {
 		
