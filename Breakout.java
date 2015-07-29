@@ -188,7 +188,7 @@ public class Breakout extends GraphicsProgram {
 * 	Changes the value of the instance variable ballvy
 */
 	private void invertYVelocity() {
-			
+		ballvy = -ballvy;
 	}
 
 /**	Moves the ball around on the screen, basically the main method in the playing of the game.
