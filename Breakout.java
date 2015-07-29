@@ -177,6 +177,12 @@ public class Breakout extends GraphicsProgram {
 		return randomGen.nextDouble(1.0, 3.0);
 	}
 
+/**	Inverts the x velocity, setting it to a random velocity
+ */
+	private void invertXVelocity() {
+		
+	}
+
 /**	Moves the ball around on the screen, basically the main method in the playing of the game.
  * 	Checks for collision of the ball, with container walls of the game, with the paddle and the bricks
  * 	A check is also contained to see if there are any bricks left, if not, the game is over
