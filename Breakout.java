@@ -241,7 +241,7 @@ public class Breakout extends GraphicsProgram {
 		else if (ballyPos <= 0) {
 			invertYVelocity();
 		}
-		/* Collision with paddle */
+		/* Collision with paddle, using getobject*/
 	}
 	
 /**	Checks the game to see if a turn is over. 
