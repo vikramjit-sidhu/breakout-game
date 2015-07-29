@@ -219,7 +219,12 @@ public class Breakout extends GraphicsProgram {
  * @return	true if turn is over, false otherwise.
  */
 	private boolean checkIfTurnOver() {
-		
+		if (numBricksRemInTurn == 0) {
+			return true;
+		}
+		/* The side length of the square in which the ball is contained
+		 * Checking if the square has a collision, the ball will also have a collision then*/
+		int ballWidth = BALL_RADIUS*2;
 	}
 	
 	
