@@ -241,7 +241,9 @@ public class Breakout extends GraphicsProgram {
 		else if (ballyPos <= 0) {
 			invertYVelocity();
 		}
-		/* Collision with paddle, using getobject*/
+		/* Collision with paddle, using GObject contains method to check if paddle is 
+		 * contained in the given points */
+		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)))
 	}
 	
 /**	Checks the game to see if a turn is over. 
