@@ -185,7 +185,7 @@ public class Breakout extends GraphicsProgram {
 		while (true) {
 			moveBall();
 			handleBallCollisions();
-			if (checkForTurnOver()) {
+			if (checkIfTurnOver()) {
 				break;
 			}
 			pause(DELAY);
