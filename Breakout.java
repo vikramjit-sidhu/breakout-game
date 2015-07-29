@@ -183,6 +183,13 @@ public class Breakout extends GraphicsProgram {
 	private void invertXVelocity() {
 		
 	}
+	
+/**	Inverts the x velocity, setting it to a random velocity
+* 	Changes the value of the instance variable ballvx
+*/
+	private void invertYVelocity() {
+			
+	}
 
 /**	Moves the ball around on the screen, basically the main method in the playing of the game.
  * 	Checks for collision of the ball, with container walls of the game, with the paddle and the bricks
