@@ -225,6 +225,10 @@ public class Breakout extends GraphicsProgram {
 		/* The side length of the square in which the ball is contained
 		 * Checking if the square has a collision, the ball will also have a collision then*/
 		int ballWidth = BALL_RADIUS*2;
+		
+		
+		
+		return false;
 	}
 	
 	
