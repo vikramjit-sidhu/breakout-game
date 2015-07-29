@@ -218,7 +218,7 @@ public class Breakout extends GraphicsProgram {
  * 		2. All bricks are finished	
  * @return	true if turn is over, false otherwise.
  */
-	private boolean checkForTurnOver() {
+	private boolean checkIfTurnOver() {
 		
 	}
 	
