@@ -216,7 +216,7 @@ public class Breakout extends GraphicsProgram {
 		
 		/* Collision with left wall */
 		if (ballxPos <= 0) {
-			
+			invertXVelocity();
 		}
 		/* Collision with right wall */
 		else if ((ballxPos + ballWidth) >= WIDTH) {
