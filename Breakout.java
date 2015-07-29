@@ -178,6 +178,7 @@ public class Breakout extends GraphicsProgram {
 	}
 
 /**	Inverts the x velocity, setting it to a random velocity
+ * 	Changes the value of the instance variable ballvx
  */
 	private void invertXVelocity() {
 		
