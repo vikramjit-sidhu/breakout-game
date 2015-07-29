@@ -211,6 +211,9 @@ public class Breakout extends GraphicsProgram {
  */
 	private void handleBallCollisions() {
 		double ballxPos = ball.getX();
+		double ballyPos = ball.getY();
+		double ballWidth = BALL_RADIUS * 2;
+		
 	}
 	
 /**	Checks the game to see if a turn is over. 
