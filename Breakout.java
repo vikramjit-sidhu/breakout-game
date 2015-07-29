@@ -210,7 +210,7 @@ public class Breakout extends GraphicsProgram {
  *   Lower wall collision NOT handled, that is handled in checkIfTurnOver method
  */
 	private void handleBallCollisions() {
-		
+		double ballxPos = ball.getX();
 	}
 	
 /**	Checks the game to see if a turn is over. 
