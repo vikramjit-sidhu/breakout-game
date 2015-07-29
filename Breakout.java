@@ -182,6 +182,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void invertXVelocity() {
 		double newXVel = -1 * Math.signum(ballvx) * getRandomXVelocity();
+		ballvx = newXVel;
 	}
 	
 /**	Inverts the y velocity, simply multiplying it by -1
