@@ -246,7 +246,8 @@ public class Breakout extends GraphicsProgram {
 		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
 			invertYVelocity();
 		}
-		/* Collision with bricks */
+		/* Collision with bricks, checks if there is a GObject returned by getElementAt method, */
+		GObject objectAt
 	}
 	
 /**	Checks the game to see if a turn is over. 
