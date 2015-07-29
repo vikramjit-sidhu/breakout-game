@@ -207,6 +207,7 @@ public class Breakout extends GraphicsProgram {
  *   with upper wall - invert y velocity
  *   with paddle - invert y velocity
  *   with bricks - remove that brick, reduce value of numBricksRemInTurn and invert y velocity
+ *   Lower wall collision NOT handled, that is handled in checkIfTurnOver method
  */
 	private void handleBallCollisions() {
 		
