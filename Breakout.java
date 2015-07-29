@@ -243,7 +243,9 @@ public class Breakout extends GraphicsProgram {
 		}
 		/* Collision with paddle, using GObject contains method to check if paddle is 
 		 * contained in the given points */
-		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)))
+		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
+			
+		}
 	}
 	
 /**	Checks the game to see if a turn is over. 
