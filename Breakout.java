@@ -214,7 +214,14 @@ public class Breakout extends GraphicsProgram {
 		double ballyPos = ball.getY();
 		double ballWidth = BALL_RADIUS * 2;
 		
-		/* Collision with left ball */
+		/* Collision with left wall */
+		if (ballxPos <= 0) {
+			
+		}
+		/* Collision with right wall*/
+		else if ((ballxPos + ballWidth) >= WIDTH) {
+			
+		}
 	}
 	
 /**	Checks the game to see if a turn is over. 
@@ -231,7 +238,7 @@ public class Breakout extends GraphicsProgram {
 		 * Checking if the square has a collision, the ball will also have a collision then */
 		double ballWidth = BALL_RADIUS * 2;
 		double ballLowerPosition = ball.getY() + ballWidth;
-		if (ballLowerPosition >= WIDTH) {
+		if (ballLowerPosition >= HEIGHT) {
 			return true;
 		}
 		return false;
