@@ -222,6 +222,7 @@ public class Breakout extends GraphicsProgram {
 		else if ((ballxPos + ballWidth) >= WIDTH) {
 			
 		}
+		/* Collision with upper wall */
 	}
 	
 /**	Checks the game to see if a turn is over. 
