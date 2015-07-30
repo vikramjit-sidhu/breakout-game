@@ -271,6 +271,16 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**	Uses the ball co-ordinates to get and return the colliding object
+ * 	Since the ball is a GOval, which can be imagined as inscribed in a square, 
+ * 	the 4 corners of the square are checked 	
+ * @return
+ */
+	private GObject getCollidingObject() {
+		GObject collidingObject;
+		
+	}
+	
 /**	Checks the game to see if a turn is over. 
  * 	For a turn to be over:
  * 		1. Ball collides with lower wall
