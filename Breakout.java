@@ -292,7 +292,7 @@ public class Breakout extends GraphicsProgram {
 		
 		/* Checking if x co-ordinates are within bounds */
 		if (((ballTopLeftX >= paddleTopLeftX) && (ballTopLeftX <= paddleTopRightX)) || 
-				(((ballTopLeftX + BALL_WIDTH) >= paddleTopLeftX) && ((ballTopLeftX + BALL_WIDTH) <= paddleTopRightX)) ){
+				(((ballTopLeftX + BALL_WIDTH) >= paddleTopLeftX) && ((ballTopLeftX + BALL_WIDTH) <= paddleTopRightX))){
 			
 		}
 		/* checking if y co-ordinates are within bounds*/
