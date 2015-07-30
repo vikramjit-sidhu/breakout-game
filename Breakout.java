@@ -236,14 +236,13 @@ public class Breakout extends GraphicsProgram {
 	private void handleBallCollisions() {
 		double ballxPos = ball.getX();
 		double ballyPos = ball.getY();
-		double ballWidth = BALL_RADIUS * 2;
 		
 		/* Collision with left wall */
 		if (ballxPos <= 0) {
 			invertXVelocity();
 		}
 		/* Collision with right wall */
-		else if ((ballxPos + ballWidth) >= WIDTH) {
+		else if ((ballxPos + BALL_WIDTH) >= WIDTH) {
 			invertXVelocity();
 		}
 		/* Collision with upper wall */
