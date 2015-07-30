@@ -53,6 +53,8 @@ public class Breakout extends GraphicsProgram {
 /** Radius of the ball in pixels */
 	private static final int BALL_RADIUS = 10;
 	
+/**	The width of the square which contains the ball object */	
+	
 /**	Color of the ball */
 	private static final Color BALL_COLOR = Color.BLACK;
 	
@@ -287,6 +289,8 @@ public class Breakout extends GraphicsProgram {
 		double ballWidth = BALL_RADIUS * 2;
 		double paddlexTopLeft = paddle.getX();
 		double paddleyTopLeft = paddle.getY();
+		
+		
 		
 		return false;
 	}
