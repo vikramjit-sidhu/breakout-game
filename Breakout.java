@@ -301,8 +301,6 @@ public class Breakout extends GraphicsProgram {
  */
 	private GObject getCollidingObject() {
 		GObject collidingObject;
-		double ballxPos = ball.getX();
-		double ballyPos = ball.getY();
 
 		/* Getting object at top left corner of square */
 		collidingObject = getElementAt(ballTopLeftX, ballTopLeftY);
