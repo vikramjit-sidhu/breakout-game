@@ -273,12 +273,15 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Uses the ball co-ordinates to get and return the colliding object
  * 	Since the ball is a GOval, which can be imagined as inscribed in a square, 
+ * 	the side of the square is equal to twice the length of the ball radius
  * 	the 4 corners of the square are checked 	
  * @return
  */
 	private GObject getCollidingObject() {
 		GObject collidingObject;
-		
+		double ballxPos = ball.getX();
+		double ballyPos = ball.getY();
+		double ball
 		
 		
 		return collidingObject;
