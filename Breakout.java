@@ -247,12 +247,11 @@ public class Breakout extends GraphicsProgram {
 		else if (ballyPos <= 0) {
 			invertYVelocity();
 		}
-		/* Collision with paddle, using GObject contains method to check if paddle is 
-		 * contained in the lower left and lower right corners of square which encloses the ball */
+		
 		/* Getting the object colliding with ball */
 		GObject collidingObject = getCollidingObject();
-		
-		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
+		/* Collision with paddle */ 
+		if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
 			invertYVelocity();
 		}
 		/* Collision with bricks, checks if there is a GObject returned by getElementAt method, */
