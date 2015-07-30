@@ -294,6 +294,7 @@ public class Breakout extends GraphicsProgram {
 		if () {
 			
 		}
+		/* checking if y co-ordinates are within bounds*/
 		if ((ballTopLeftY + BALL_WIDTH) >= paddleTopLeftY) {
 			withinY = true;
 		}
