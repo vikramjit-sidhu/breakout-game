@@ -366,9 +366,11 @@ public class Breakout extends GraphicsProgram {
 /**	METHODS RELATED TO BRICKS */	
 	
 	private boolean checkGObjectIsBrick(GObject obj) {
+		/* Brick is Visible */
 		if (!(obj.isVisible())) {
 			return false;
 		}
+		/* Object height and width should match that of the brick height and width */
 		else if (obj.getWidth() != BRICK_WIDTH) {
 			return false;
 		}
