@@ -284,6 +284,7 @@ public class Breakout extends GraphicsProgram {
 	private boolean checkCollisionWithTopOfPaddle() {
 		double ballxTopLeft = ball.getX();
 		double ballyTopLeft = ball.getY();
+		double ballWidth = BALL_RADIUS * 2;
 		
 		return false;
 	}
