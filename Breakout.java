@@ -255,7 +255,8 @@ public class Breakout extends GraphicsProgram {
 		if ((collidingObject != null) && (collidingObject == paddle)) {
 			invertYVelocity();
 		}
-		/* If the GObject obtained is null, or it is not a brick, return back, no more work */
+		
+		/* Checking if colliding object is a brick */
 		if ((objectAtBallLocation == null) || !(checkGObjectIsBrick(objectAtBallLocation))) {
 			/* Inverting the balls velocity */
 			invertYVelocity();
