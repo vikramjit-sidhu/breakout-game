@@ -369,8 +369,13 @@ public class Breakout extends GraphicsProgram {
 		if (!(obj.isVisible())) {
 			return false;
 		}
-		else if (obj.getWidth() != BRICK_WIDTH)
-		&& () && 
+		else if (obj.getWidth() != BRICK_WIDTH) {
+			return false;
+		}
+		else if (obj.getHeight() != BRICK_HEIGHT) {
+			return false;
+		}
+		return true;
 	}
 	
 /**	
