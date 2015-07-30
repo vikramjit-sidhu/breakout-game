@@ -290,7 +290,7 @@ public class Breakout extends GraphicsProgram {
 		}
 		/* Since no object found yet, finding if there is an object at bottom left corner of square */
 		if (collidingObject == null) {
-			collidingObject = getElementAt(ballxPos + ballWidth, ballyPos);
+			collidingObject = getElementAt(ballxPos, ballyPos + ballWidth);
 		}
 		
 		
