@@ -72,7 +72,7 @@ public class Breakout extends GraphicsProgram {
 	private static final int NTURNS = 3;
 	
 /**	The delay variable; after these many milliseconds, the ball is moved.
- * 	
+ * 	The logic here is to mimic the 24fps so that the ball moves seamlessly
  */
 	private static final int DELAY = 42;
 
