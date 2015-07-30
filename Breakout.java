@@ -252,11 +252,11 @@ public class Breakout extends GraphicsProgram {
 			if (objectAtBallLocation == null) {
 				objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth);
 			}
-			if ((objectAtBallLocation == null) || checkGObjectIsBrick(objectAtBallLocation)) {
+			/* If the GObject obtained is null, or it is not a brick,  */
+			if ((objectAtBallLocation == null) || !(checkGObjectIsBrick(objectAtBallLocation))) {
 				return;
 			}
-			/* Checking if object is a brick */
-			if () {
+			
 				
 				}
 				/* Inverting the balls velocity */
