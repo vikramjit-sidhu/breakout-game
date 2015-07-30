@@ -222,6 +222,8 @@ public class Breakout extends GraphicsProgram {
  */
 	private void moveBall() {
 		ball.move(ballvx, ballvy);
+		ballTopLeftX = ball.getX();
+		ballTopLeftY = ball.getY();
 	}
 	
 /**	Handle the changes which happen in the game as the ball collides with objects.
@@ -565,6 +567,6 @@ public class Breakout extends GraphicsProgram {
 	private double ballvx, ballvy;
 	
 /**	The co-ordinates of the top left corner of the square the ball is contained by */
-	private double ballXTopLeft, ballYTopLeft;
+	private double ballTopLeftX, ballTopLeftY;
 	
 }
