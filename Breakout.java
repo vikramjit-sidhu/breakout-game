@@ -253,7 +253,7 @@ public class Breakout extends GraphicsProgram {
 				objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth);
 			}
 			if (objectAtBallLocation != null) {
-				/* Inverting the balls velocity*/
+				/* Inverting the balls velocity */
 				invertYVelocity();
 			}
 		}
