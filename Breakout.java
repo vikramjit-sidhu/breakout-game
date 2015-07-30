@@ -365,6 +365,10 @@ public class Breakout extends GraphicsProgram {
 	
 /**	METHODS RELATED TO BRICKS */	
 	
+/**	Given a GObject, check if it is the brick contained in the top row
+ * @param obj The object to check conditions for
+ * @return returns true if the object is a brick, false otherwise
+ */
 	private boolean checkGObjectIsBrick(GObject obj) {
 		/* Brick is Visible */
 		if (!(obj.isVisible())) {
