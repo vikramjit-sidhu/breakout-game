@@ -282,7 +282,8 @@ public class Breakout extends GraphicsProgram {
  * @return true if the collision is with top surface, false otherwise
  */
 	private boolean checkCollisionWithTopOfPaddle() {
-		
+		double ballxTopLeft = ball.getX();
+		double ballyTopLeft = ball.getY();
 		
 		return false;
 	}
