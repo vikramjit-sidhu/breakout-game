@@ -255,7 +255,7 @@ public class Breakout extends GraphicsProgram {
 			if (objectAtBallLocation != null) {
 				/* Inverting the balls velocity */
 				invertYVelocity();
-				/* Removing from screen and reducing the number of bricks left */
+				/* Removing from screen and reducing the number of bricks left (instance variable numBricksRemInTurn */
 			}
 		}
 	}
