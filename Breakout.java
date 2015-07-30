@@ -281,7 +281,7 @@ public class Breakout extends GraphicsProgram {
 		GObject collidingObject;
 		double ballxPos = ball.getX();
 		double ballyPos = ball.getY();
-		double ball
+		double ballWidth = 2 * BALL_RADIUS;
 		
 		
 		return collidingObject;
