@@ -240,15 +240,15 @@ public class Breakout extends GraphicsProgram {
 		double ballyPos = ball.getY();
 		
 		/* Collision with left wall */
-		if (ballxPos <= 0) {
+		if (ballTopLeftX <= 0) {
 			invertXVelocity();
 		}
 		/* Collision with right wall */
-		else if ((ballxPos + BALL_WIDTH) >= WIDTH) {
+		else if ((ballTopLeftX + BALL_WIDTH) >= WIDTH) {
 			invertXVelocity();
 		}
 		/* Collision with upper wall */
-		else if (ballyPos <= 0) {
+		else if (ballTopLeftY <= 0) {
 			invertYVelocity();
 		}
 
