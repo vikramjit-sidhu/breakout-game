@@ -312,11 +312,11 @@ public class Breakout extends GraphicsProgram {
 		}
 		/* Since no object found yet, finding if there is an object at bottom left corner of square */
 		if (collidingObject == null) {
-			collidingObject = getElementAt(ballxPos, ballyPos + BALL_WIDTH);
+			collidingObject = getElementAt(ballTopLeftX, ballTopLeftY + BALL_WIDTH);
 		}
 		/* Since no object found yet, finding if there is an object at bottom right corner of square */
 		if (collidingObject == null) {
-			collidingObject = getElementAt(ballxPos + BALL_WIDTH, ballyPos + BALL_WIDTH);
+			collidingObject = getElementAt(ballTopLeftX + BALL_WIDTH, ballTopLeftY + BALL_WIDTH);
 		}
 		return collidingObject;
 	}
