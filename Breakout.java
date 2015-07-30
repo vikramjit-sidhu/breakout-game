@@ -253,7 +253,7 @@ public class Breakout extends GraphicsProgram {
 				objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth);
 			}
 			if (objectAtBallLocation != null) {
-				/* Checking if object obtained is GRect object which is the brick */\
+				/* Checking if object is a brick*/
 				if (checkGObjectIsBrick(objectAtBallLocation)) {
 					
 				}
