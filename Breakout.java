@@ -286,7 +286,7 @@ public class Breakout extends GraphicsProgram {
 		double ballyTopLeft = ball.getY();
 		double ballWidth = BALL_RADIUS * 2;
 		double paddlexTopLeft = paddle.getX();
-		double paddleyTopLeft = paddle.getX();
+		double paddleyTopLeft = paddle.getY();
 		
 		return false;
 	}
