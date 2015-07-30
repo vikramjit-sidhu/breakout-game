@@ -284,14 +284,15 @@ public class Breakout extends GraphicsProgram {
  */
 	private boolean checkCollisionWithTopOfPaddle() {
 		double paddleTopLeftX = paddle.getX();
-		double paddlTopRightX = paddleTopLeftX + PADDLE_WIDTH;
+		double paddleTopRightX = paddleTopLeftX + PADDLE_WIDTH;
 		double paddleTopLeftY = paddle.getY();
 		
 		/* vars to check if the ball is within the x and y boundaries of the top of paddle */
 		boolean withinX = false, withinY = false;
 		
 		/* Checking if x co-ordinates are within bounds */
-		if () {
+		if (((ballTopLeftX >= paddleTopLeftX) && (ballTopLeftX <= paddleTopRightX)) || 
+				(((ballTopLeftX + BALL_WIDTH) >= paddleTopLeftX) && ((ballTopLeftX + BALL_WIDTH) <= paddleTopRightX)) ){
 			
 		}
 		/* checking if y co-ordinates are within bounds*/
