@@ -257,7 +257,7 @@ public class Breakout extends GraphicsProgram {
 		}
 		
 		/* Checking if colliding object is a brick */
-		if ((objectAtBallLocation == null) || !(checkGObjectIsBrick(objectAtBallLocation))) {
+		if ((collidingObject != null) && (checkGObjectIsBrick(collidingObject))) {
 			/* Inverting the balls velocity */
 			invertYVelocity();
 			/* Removing brick from screen, 
