@@ -558,8 +558,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private int numBricksRemInTurn = NBRICKS_PER_ROW * NBRICK_ROWS;
 	
-/** The velocity of the ball is kept track using these variables
- */
+/** The velocity of the ball is kept track using these variables */
 	private double ballvx, ballvy;
 	
 /**	The ball which bounces around and causes the game to progess */
