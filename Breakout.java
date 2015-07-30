@@ -291,6 +291,11 @@ public class Breakout extends GraphicsProgram {
 		boolean withinX = false, withinY = false;
 		
 		/* Checking if x condition is satisfied */
+		if 
+		
+		if ((ballTopLeftY + BALL_WIDTH) >= paddleTopLeftY) {
+			withinY = true;
+		}
 		
 		if (withinX && withinY) {
 			return true;
