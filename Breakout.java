@@ -62,6 +62,8 @@ public class Breakout extends GraphicsProgram {
 /**	The minimum and max range of the x velocities possible, 
  * 	on some collisions a random x velocity is generated which uses this range.  
  */
+	private static final double BALL_X_LOWER_VELOCITY = 2.0;
+	private static final double BALL_X_UPPER_VELOCITY = 5.0;
 
 /** Offset of the top brick row from the top */
 	private static final int BRICK_Y_OFFSET = 70;
