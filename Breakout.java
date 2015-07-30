@@ -285,7 +285,7 @@ public class Breakout extends GraphicsProgram {
 	private boolean checkCollisionWithTopOfPaddle() {
 		double paddleTopLeftX = paddle.getX();
 		double paddlTopRightX = paddleTopLeftX + PADDLE_WIDTH;
-		double paddleTopLefty = paddle.getY();
+		double paddleTopLeftY = paddle.getY();
 		
 		
 		
