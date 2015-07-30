@@ -53,7 +53,7 @@ public class Breakout extends GraphicsProgram {
 /** Radius of the ball in pixels */
 	private static final int BALL_RADIUS = 10;
 	
-/**	The width of the square which contains the ball object */
+/**	The length of the side of the square which contains the ball object */
 	private static final int BALL_WIDTH = BALL_RADIUS * 2;
 	
 /**	Color of the ball */
