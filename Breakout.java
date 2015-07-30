@@ -180,7 +180,7 @@ public class Breakout extends GraphicsProgram {
  *  @return a double value between 1 and 3
  */
 	private double getRandomXVelocity() {
-		return randomGen.nextDouble(1.0, 3.0);
+		return randomGen.nextDouble(BALL_X_LOWER_VELOCITY, BALL_X_UPPER_VELOCITY);
 	}
 
 /**	Inverts the x velocity, setting it to a random velocity
