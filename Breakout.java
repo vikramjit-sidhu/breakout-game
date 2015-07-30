@@ -287,9 +287,13 @@ public class Breakout extends GraphicsProgram {
 		double paddlTopRightX = paddleTopLeftX + PADDLE_WIDTH;
 		double paddleTopLeftY = paddle.getY();
 		
-		/* */
+		/* vars to check if the ball is within the x and y boundaries of the top of paddle */
 		boolean withinX = false, withinY = false;
 		
+		
+		if (withinX && withinY) {
+			return true;
+		}
 		return false;
 	}
 	
