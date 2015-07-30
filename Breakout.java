@@ -238,17 +238,14 @@ public class Breakout extends GraphicsProgram {
 		/* Collision with left wall */
 		if (ballxPos <= 0) {
 			invertXVelocity();
-			return;
 		}
 		/* Collision with right wall */
 		else if ((ballxPos + ballWidth) >= WIDTH) {
 			invertXVelocity();
-			return;
 		}
 		/* Collision with upper wall */
 		else if (ballyPos <= 0) {
 			invertYVelocity();
-			return;
 		}
 		/* Collision with paddle, using GObject contains method to check if paddle is 
 		 * contained in the lower left and lower right corners of square which encloses the ball */
