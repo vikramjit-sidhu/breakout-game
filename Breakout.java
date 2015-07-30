@@ -261,6 +261,7 @@ public class Breakout extends GraphicsProgram {
 			/* Removing brick from screen, 
 			 * and reducing the number of bricks left (instance variable numBricksRemInTurn */
 			remove(objectAtBallLocation);
+			numBricksRemInTurn--;
 		}
 	}
 	
