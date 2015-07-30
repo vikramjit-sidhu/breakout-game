@@ -564,5 +564,7 @@ public class Breakout extends GraphicsProgram {
 /** The velocity of the ball is kept track using these variables */
 	private double ballvx, ballvy;
 	
-/**	The co-ordinates of the top left corner of the square the ball is contained by */	
+/**	The co-ordinates of the top left corner of the square the ball is contained by */
+	private double ballXTopLeft, ballYTopLeft;
+	
 }
