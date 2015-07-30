@@ -284,7 +284,11 @@ public class Breakout extends GraphicsProgram {
 		double ballWidth = 2 * BALL_RADIUS;
 		/* Getting object at top left corner of square */
 		collidingObject = getElementAt(ballxPos, ballyPos);
-		/* Getting object at top right corner of square */
+		/* Since no object found yet, finding if there is an object at top right corner of square */
+		if (collidingObject == null) {
+			collidingObject = getElementAt(ballxPos + ballWidth, ballyPos);
+		}
+		/* Since no object found yet, finding if there is an object at bottom left corner of square */
 		if (collidingObject == null) {
 			collidingObject = getElementAt(ballxPos + ballWidth, ballyPos);
 		}
