@@ -287,7 +287,8 @@ public class Breakout extends GraphicsProgram {
 		double paddlTopRightX = paddleTopLeftX + PADDLE_WIDTH;
 		double paddleTopLeftY = paddle.getY();
 		
-		
+		/*	*/
+		boolean withinX = false, withinY = false
 		
 		return false;
 	}
