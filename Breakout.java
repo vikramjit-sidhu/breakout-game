@@ -305,7 +305,7 @@ public class Breakout extends GraphicsProgram {
 		double ballyPos = ball.getY();
 
 		/* Getting object at top left corner of square */
-		collidingObject = getElementAt(ballxPos, ballyPos);
+		collidingObject = getElementAt(ballTopLeftX, ballTopLeftY);
 		/* Since no object found yet, finding if there is an object at top right corner of square */
 		if (collidingObject == null) {
 			collidingObject = getElementAt(ballxPos + BALL_WIDTH, ballyPos);
