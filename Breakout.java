@@ -335,7 +335,7 @@ public class Breakout extends GraphicsProgram {
 		/* The side length of the square in which the ball is contained
 		 * Checking if the square has a collision, the ball will also have a collision then */
 		double ballWidth = BALL_RADIUS * 2;
-		double ballLowerPosition = ball.getY() + ballWidth;
+		double ballLowerPosition = ball.getY() + BALL_WIDTH;
 		if (ballLowerPosition >= HEIGHT) {
 			return true;
 		}
