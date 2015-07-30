@@ -576,4 +576,7 @@ public class Breakout extends GraphicsProgram {
 /**	The co-ordinates of the top left corner of the square the ball is contained by */
 	private double ballTopLeftX, ballTopLeftY;
 	
+/**	The GLabel object is used to display to the user instructions about the game */	
+	
+	
 }
