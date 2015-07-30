@@ -274,11 +274,17 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /**	Check if the ball collides with top surface of the paddle
- * 	
+ * 	The ball can be imagined to be contained in a square
+ * 	If x,y is the upper left corner of the square (returned by ball.getX() and ball.getY())
+ * 	The lower 2 corners are given by (x, y+ball_width) and (x+ball_width, y+ball_width)
+ * 	Checking if x and x+ball_width are contained within x co-ordinates of the top left and top right corner of the paddle
+ * 	Checking if (y+ball_width) is greater than or equal to the y co-ordinate of the top of the paddle  
  * @return true if the collision is with top surface, false otherwise
  */
 	private boolean checkCollisionWithTopOfPaddle() {
 		
+		
+		return false;
 	}
 	
 /**	Uses the ball co-ordinates to get and return the colliding object
