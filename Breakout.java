@@ -273,6 +273,14 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/**	Check if the ball collides with top surface of the paddle
+ * 	
+ * @return true if the collision is with top surface, false otherwise
+ */
+	private boolean collisionWithTopOfPaddle() {
+		
+	}
+	
 /**	Uses the ball co-ordinates to get and return the colliding object
  * 	Since the ball is a GOval, which can be imagined as inscribed in a square, 
  * 	the side of the square is equal to twice the length of the ball radius
