@@ -279,6 +279,9 @@ public class Breakout extends GraphicsProgram {
 	private GObject getCollidingObject() {
 		GObject collidingObject;
 		
+		
+		
+		return collidingObject;
 	}
 	
 /**	Checks the game to see if a turn is over. 
