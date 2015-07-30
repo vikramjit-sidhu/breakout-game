@@ -290,7 +290,7 @@ public class Breakout extends GraphicsProgram {
 		/* vars to check if the ball is within the x and y boundaries of the top of paddle */
 		boolean withinX = false, withinY = false;
 		
-		/* Checking if x condition is satisfied */
+		/* Checking if x co-ordinates are within bounds */
 		if () {
 			
 		}
