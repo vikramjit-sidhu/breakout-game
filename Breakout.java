@@ -253,7 +253,13 @@ public class Breakout extends GraphicsProgram {
 		
 		/* Collision with paddle */ 
 		if ((collidingObject != null) && (collidingObject == paddle)) {
-			invertYVelocity();
+			/*If the collision of ball is with top of paddle, bouncing it off paddle */
+			if (collisionTopOfPaddle()) {
+				invertYVelocity();
+			}
+			else {
+				invertXVelocity();
+			}
 		}
 		
 		/* Checking if colliding object is a brick */
