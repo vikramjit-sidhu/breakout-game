@@ -252,19 +252,11 @@ public class Breakout extends GraphicsProgram {
 		GObject collidingObject = getCollidingObject();
 		
 		/* Collision with paddle */ 
-		if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
+		if ((collidingObject != null) && (collidingObject == paddle)) {
 			invertYVelocity();
 		}
-		/* Collision with bricks, checks if there is a GObject returned by getElementAt method, */
-		else {
-			GObject objectAtBallLocation = getElementAt(ballxPos, ballyPos);
-			if (objectAtBallLocation == null) {
-				objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth);
-			}
-			/* If the GObject obtained is null, or it is not a brick, return back, no more work */
-			if ((objectAtBallLocation == null) || !(checkGObjectIsBrick(objectAtBallLocation))) {
-				return;
-			}
+		/* If the GObject obtained is null, or it is not a brick, return back, no more work */
+		if ((objectAtBallLocation == null) || !(checkGObjectIsBrick(objectAtBallLocation))) {
 			/* Inverting the balls velocity */
 			invertYVelocity();
 			/* Removing brick from screen, 
