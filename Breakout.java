@@ -275,7 +275,7 @@ public class Breakout extends GraphicsProgram {
  * 	Since the ball is a GOval, which can be imagined as inscribed in a square, 
  * 	the side of the square is equal to twice the length of the ball radius
  * 	To find colliding objects, the 4 corners of the square are checked
- * @return
+ * @return The colliding object or null if no object is found
  */
 	private GObject getCollidingObject() {
 		GObject collidingObject;
@@ -292,7 +292,10 @@ public class Breakout extends GraphicsProgram {
 		if (collidingObject == null) {
 			collidingObject = getElementAt(ballxPos, ballyPos + ballWidth);
 		}
-		
+		/* Since no object found yet, finding if there is an object at bottom left corner of square */
+		if (collidingObject == null) {
+			collidingObject = getElementAt(ballxPos, ballyPos + ballWidth);
+		}
 		
 		return collidingObject;
 	}
