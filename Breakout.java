@@ -247,9 +247,10 @@ public class Breakout extends GraphicsProgram {
 		else if (ballyPos <= 0) {
 			invertYVelocity();
 		}
-		
+
 		/* Getting the object colliding with ball */
 		GObject collidingObject = getCollidingObject();
+		
 		/* Collision with paddle */ 
 		if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
 			invertYVelocity();
