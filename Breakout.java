@@ -246,11 +246,12 @@ public class Breakout extends GraphicsProgram {
 		else if ((paddle.contains(ballxPos, ballyPos + ballWidth)) || paddle.contains(ballxPos + ballWidth, ballyPos + ballWidth)) {
 			invertYVelocity();
 		}
-		
 		/* Collision with bricks, checks if there is a GObject returned by getElementAt method, */
-		GObject objectAtBallLocation = getElementAt(ballxPos, ballyPos);
-		if (objectAtBallLocation == null) {
-			objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth)
+		else {
+			GObject objectAtBallLocation = getElementAt(ballxPos, ballyPos);
+			if (objectAtBallLocation == null) {
+				objectAtBallLocation = getElementAt(ballxPos, ballyPos + ballWidth);
+			}
 		}
 	}
 	
