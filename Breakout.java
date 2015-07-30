@@ -296,7 +296,6 @@ public class Breakout extends GraphicsProgram {
 		if (collidingObject == null) {
 			collidingObject = getElementAt(ballxPos + ballWidth, ballyPos + ballWidth);
 		}
-		
 		return collidingObject;
 	}
 	
