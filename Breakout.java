@@ -264,7 +264,7 @@ public class Breakout extends GraphicsProgram {
 			else {
 				invertXVelocity();
 			}
-			return
+			return;
 		}
 		
 		/* Checking if colliding object is a brick */
