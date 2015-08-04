@@ -297,6 +297,14 @@ public class Breakout extends GraphicsProgram {
 		return false;
 	}
 	
+/**	Check if the velocity of the ball is in upwards direction, this is -ve y direction
+ * 	Using ballvy and current ball y location (ballTopLeftY) to check logic
+ * @return
+ */
+	private boolean checkYVelocityUpwards() {
+		
+	}
+	
 /**	RECHECK METHOD	
  * Check if the ball collides with top surface of the paddle
  * 	The ball can be imagined to be contained in a square
