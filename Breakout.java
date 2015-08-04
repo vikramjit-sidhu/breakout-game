@@ -242,7 +242,7 @@ public class Breakout extends GraphicsProgram {
 			return;
 		}
 		/* Collision with right wall */
-		else if ((ballTopLeftX + BALL_WIDTH) >= WIDTH) {
+		else if (((ballTopLeftX + BALL_WIDTH) >= WIDTH) && !(checkVelocityInvertedRightWall())) {
 			invertXVelocity();
 			return;
 		}
