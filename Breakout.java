@@ -278,7 +278,8 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
-/**	Check if the ball collides with top surface of the paddle
+/**	RECHECK METHOD	
+ * Check if the ball collides with top surface of the paddle
  * 	The ball can be imagined to be contained in a square
  * 	If x,y is the upper left corner of the square (stored in instance variables ballTopLeftX and ballTopLeftY)
  * 	The lower 2 corners are given by (x, y+ball_width) and (x+ball_width, y+ball_width)
