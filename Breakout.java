@@ -287,7 +287,7 @@ public class Breakout extends GraphicsProgram {
 	}
 	
 /** Check if the velocity of ball is in +ve x-direction, i.e. towards right
- * 	Using the ballvx and 	
+ * 	Using the ballvx and current ball x location (stored in ballTopLeftX) to check logic
  * @return
  */
 	private boolean checkXVelocityTowardsRight() {
