@@ -247,7 +247,7 @@ public class Breakout extends GraphicsProgram {
 			return;
 		}
 		/* Collision with upper wall, inverting velocity only if it is in -ve y direction (+ve y is downwards) */
-		else if ((ballTopLeftY <= 0) && !(checkYVelocityUpwards())) {
+		else if ((ballTopLeftY <= 0) && checkYVelocityUpwards()) {
 			invertYVelocity();
 			return;
 		}
@@ -265,7 +265,10 @@ public class Breakout extends GraphicsProgram {
 //				invertXVelocity();
 //			}
 //			return;
-			/* Check if velocity of ball is in +ve y direction, only then inverting its velocity*/
+			/* Check if velocity of ball is in +ve y direction, only then inverting its velocity */
+			if (checkYVelocityUpwards()) {
+				
+			}
 			
 		}
 		
