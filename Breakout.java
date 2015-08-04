@@ -272,6 +272,9 @@ public class Breakout extends GraphicsProgram {
 					invertYVelocity();
 				}
 			}
+			else {
+				invertXVelocity();
+			}
 			
 		}
 		
