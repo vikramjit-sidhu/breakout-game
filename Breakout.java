@@ -291,7 +291,10 @@ public class Breakout extends GraphicsProgram {
  * @return True if velocity is to right
  */
 	private boolean checkXVelocityTowardsRight() {
-		
+		if ((ballTopLeftX + ballvx) > ballTopLeftX) {
+			return true;
+		}
+		return false;
 	}
 	
 /**	RECHECK METHOD	
