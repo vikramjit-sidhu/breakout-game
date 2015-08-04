@@ -247,7 +247,7 @@ public class Breakout extends GraphicsProgram {
 			return;
 		}
 		/* Collision with upper wall */
-		else if ((ballTopLeftY <= 0) && checkYVelocityUpwards()) {
+		else if ((ballTopLeftY <= 0) && !(checkYVelocityUpwards())) {
 			invertYVelocity();
 			return;
 		}
