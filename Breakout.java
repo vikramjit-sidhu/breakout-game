@@ -299,7 +299,7 @@ public class Breakout extends GraphicsProgram {
 	
 /**	Check if the velocity of the ball is in upwards direction, this is -ve y direction
  * 	Using ballvy and current ball y location (ballTopLeftY) to check logic
- * @return
+ * @return True if y velocity is upwards, or -ve y
  */
 	private boolean checkYVelocityUpwards() {
 		
