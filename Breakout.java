@@ -257,6 +257,7 @@ public class Breakout extends GraphicsProgram {
 		
 		/* Collision with paddle */ 
 		if ((collidingObject != null) && (collidingObject == paddle)) {
+//			RECHECK LOGIC
 //			/*If the collision of ball is with top of paddle, bouncing it off paddle */
 //			if (checkCollisionWithTopOfPaddle()) {
 //				invertYVelocity();
@@ -285,7 +286,8 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
-/** Check if the velocity of ball is in +ve x-direction, i.e. towards right	
+/** Check if the velocity of ball is in +ve x-direction, i.e. towards right
+ * 	Using the ballvx and 	
  * @return
  */
 	private boolean checkXVelocityTowardsRight() {
