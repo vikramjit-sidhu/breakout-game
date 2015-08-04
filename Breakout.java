@@ -4,6 +4,15 @@
  * This file implements the breakout game.
  * For more info, check here:
  * https://en.wikipedia.org/wiki/Breakout_%28video_game%29
+ 
+ 
+ *	NOTES:
+ *	The game is mostly complete, there are some enhancements that can be added:
+ *	1. A Label and timer to signal to the user the starting and ending of each game
+ *	2. Adding sounds when the ball collides with any object
+ *	3. Changing the color of the ball, if a row of bricks is over
+ *	4. Different velocities of the ball on collision with the paddle in different directions
+	
  */
 
 import acm.graphics.*;
@@ -608,8 +617,5 @@ public class Breakout extends GraphicsProgram {
 	
 /**	The co-ordinates of the top left corner of the square the ball is contained by */
 	private double ballTopLeftX, ballTopLeftY;
-	
-/**	The GLabel object is used to display to the user instructions about the game */	
-	
 	
 }
