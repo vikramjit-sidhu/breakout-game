@@ -242,7 +242,7 @@ public class Breakout extends GraphicsProgram {
 			return;
 		}
 		/* Collision with right wall, inverting velocity only if it is in +ve x direction  */
-		else if (((ballTopLeftX + BALL_WIDTH) >= WIDTH) && !(checkXVelocityTowardsRight())) {
+		else if (((ballTopLeftX + BALL_WIDTH) >= WIDTH) && checkXVelocityTowardsRight()) {
 			invertXVelocity();
 			return;
 		}
