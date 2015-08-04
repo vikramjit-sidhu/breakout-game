@@ -236,7 +236,7 @@ public class Breakout extends GraphicsProgram {
  *   Lower wall collision NOT handled, that is handled in checkIfTurnOver method
  */
 	private void handleBallCollisions() {
-		/* Collision with left wall */
+		/* Collision with left wall, only inverting velocity only if it is in -ve x direction */
 		if ((ballTopLeftX <= 0) && checkXVelocityTowardsRight()) {
 			invertXVelocity();
 			return;
