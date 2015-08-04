@@ -285,6 +285,13 @@ public class Breakout extends GraphicsProgram {
 		}
 	}
 	
+/** Check if the velocity of ball is in +ve x-direction, i.e. towards right	
+ * @return
+ */
+	private boolean checkXVelocityTowardsRight() {
+		
+	}
+	
 /**	RECHECK METHOD	
  * Check if the ball collides with top surface of the paddle
  * 	The ball can be imagined to be contained in a square
