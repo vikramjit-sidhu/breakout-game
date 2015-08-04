@@ -265,6 +265,7 @@ public class Breakout extends GraphicsProgram {
 //				invertXVelocity();
 //			}
 //			return;
+			/* Check if velocity of ball is in +ve y direction, only then inverting its velocity*/
 			
 		}
 		
