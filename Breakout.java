@@ -237,7 +237,7 @@ public class Breakout extends GraphicsProgram {
  */
 	private void handleBallCollisions() {
 		/* Collision with left wall, inverting velocity only if it is in -ve x direction */
-		if ((ballTopLeftX <= 0) && !(checkXVelocityTowardsRight())) {
+		if ((ballTopLeftX <= 0) && !checkXVelocityTowardsRight()) {
 			invertXVelocity();
 			return;
 		}
