@@ -275,7 +275,7 @@ public class Breakout extends GraphicsProgram {
 		/* Checking if colliding object is a brick */
 		if ((collidingObject != null) && (checkGObjectIsBrick(collidingObject))) {
 			/* No need to check if velocity is already inverted in this case, as brick is removed immediately
-			 * and there is no chance of a 're-collision' happening*/
+			 * and there is no chance of a 're-collision' happening */
 			/* Inverting the balls velocity */
 			invertYVelocity();
 			/* Removing brick from screen, 
