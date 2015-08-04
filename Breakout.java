@@ -237,17 +237,17 @@ public class Breakout extends GraphicsProgram {
  */
 	private void handleBallCollisions() {
 		/* Collision with left wall */
-		if ((ballTopLeftX <= 0) && !(checkVelocityInvertedLeftWall())) {
+		if ((ballTopLeftX <= 0) && checkXVelocityTowardsRight()) {
 			invertXVelocity();
 			return;
 		}
 		/* Collision with right wall */
-		else if (((ballTopLeftX + BALL_WIDTH) >= WIDTH) && !(checkVelocityInvertedRightWall())) {
+		else if (((ballTopLeftX + BALL_WIDTH) >= WIDTH) && !(checkXVelocityTowardsRight())) {
 			invertXVelocity();
 			return;
 		}
 		/* Collision with upper wall */
-		else if (ballTopLeftY <= 0) {
+		else if ((ballTopLeftY <= 0) && checkYVelocityUpwards()) {
 			invertYVelocity();
 			return;
 		}
