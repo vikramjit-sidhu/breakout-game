@@ -246,7 +246,7 @@ public class Breakout extends GraphicsProgram {
 			invertXVelocity();
 			return;
 		}
-		/* Collision with upper wall */
+		/* Collision with upper wall, inverting velocity only if it is in -ve y direction  */
 		else if ((ballTopLeftY <= 0) && !(checkYVelocityUpwards())) {
 			invertYVelocity();
 			return;
