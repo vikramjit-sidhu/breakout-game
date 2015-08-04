@@ -302,7 +302,10 @@ public class Breakout extends GraphicsProgram {
  * @return True if y velocity is upwards, or -ve y
  */
 	private boolean checkYVelocityUpwards() {
-		
+		if ((ballTopLeftY + ballvy) < ballTopLeftY) {
+			return true;
+		}
+		return false;
 	}
 	
 /**	RECHECK METHOD	
