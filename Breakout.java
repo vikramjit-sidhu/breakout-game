@@ -267,8 +267,10 @@ public class Breakout extends GraphicsProgram {
 //			}
 //			return;
 			/* Check if velocity of ball is in +ve y direction, only then inverting its velocity */
-			if (!checkYVelocityUpwards()) {
-				invertYVelocity();
+			if (checkCollisionWithTopOfPaddle() {
+				if (!checkYVelocityUpwards()) {
+					invertYVelocity();
+				}
 			}
 			
 		}
